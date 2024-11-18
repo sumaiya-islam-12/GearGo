@@ -7,6 +7,8 @@ function App() {
     <>
     <Header></Header>
       <h1>Hello</h1>
+      <h2>Mitu Khanom</h2>
+
     </>
   )
 }
