@@ -14,7 +14,7 @@ export default function Header() {
           <Nav>
             <Nav.Link href="#deets">Home</Nav.Link>
             <Nav.Link href="#memes">
-              Dank memes
+              Dark memes
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
