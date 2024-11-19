@@ -2,12 +2,13 @@ import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import './index.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import Home from './Pages/Home/Home.jsx';
+
+import Download from './Pages/Download/Download.jsx';
 
 const router = createBrowserRouter([
   {
-    path: '/',
-    element: <Home/>
+    path: '/download',
+    element: <Download/>
   }
 ]);
 
