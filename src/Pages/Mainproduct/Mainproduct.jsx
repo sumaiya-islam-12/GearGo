@@ -1,11 +1,12 @@
-import Home from "../Home/Home";
 
+import Header from '../../Components/Header/Header';
 
 export default function Mainproduct() {
   return (
     
     <div>
-       <Home></Home>
+        <Header/>
+       <h1>Mainproduct</h1>
     </div>
   )
 }
