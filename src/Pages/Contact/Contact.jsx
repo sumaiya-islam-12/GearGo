@@ -1,11 +1,11 @@
 import Footer from '../../Components/Footer/Footer';
 import Header from '../../Components/Header/Header';
 
-export default function Blog() {
+export default function Contact() {
   return (
     <div>
         <Header/>
-      <h1>Blog</h1>
+      <h1>Contact</h1>
 
       <Footer/>
     </div>

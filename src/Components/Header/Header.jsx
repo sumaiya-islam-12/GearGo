@@ -19,14 +19,12 @@ function CollapsibleExample() {
           </Nav>
           <Nav className='p-s-3 text-center'>
             <Link className='mainmenu' to="/mainproduct" >Mainproduct</Link>
-            <Link className='mainmenu' to="/blog">Blogs</Link>
+            <Link className='mainmenu' to="/blog">Blog</Link>
             <Link className='mainmenu' to="/contact">Contact</Link>
             <Link className='mainmenu' to="/aboutus">About Us</Link>
             <Link className='mainmenu' to="/policy">Policy</Link>
             <Link className='mainmenu' to="/pyment">Pyment</Link>
-            <Link className='mainmenu' to="/">
-            <Button variant="danger">Danger</Button>
-            </Link>
+            <Link className='mainmenu' to="/"><Button variant="danger">Danger</Button></Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
