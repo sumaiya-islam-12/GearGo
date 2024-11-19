@@ -12,6 +12,9 @@ export default function contact() {
         <img src="/src/assets/Contact/img/undraw_connecting_teams_re_hno7 1.png" alt="" />
         </Col>
         <Col>
+        <form>
+        in
+        </form>
         
         </Col>
       </Row>
