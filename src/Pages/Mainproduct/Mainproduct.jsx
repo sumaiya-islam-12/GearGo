@@ -8,6 +8,7 @@ export default function Mainproduct() {
     <div>
         <Header/>
        <h1>Mainproduct</h1>
+       <h1>Mainproduct-1</h1>
 
        <Footer/>
     </div>
