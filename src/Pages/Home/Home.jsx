@@ -1,3 +1,4 @@
+import Footer from "../../Components/Footer/Footer";
 import Header from "../../Components/Header/Header";
 
 
@@ -9,7 +10,7 @@ export default function Home() {
 
 
 
-        
+        <Footer></Footer>
     </div>
   )
 }
