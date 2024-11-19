@@ -1,4 +1,5 @@
 import { useEffect, useState, } from "react";
+import Posts from "../../Components/Header/Posts/Posts";
 
 
 export default function Blog() {
@@ -13,7 +14,7 @@ export default function Blog() {
   return (
     <div>
              {
-                post.map( Posts => < Posts  postdata = {Posts}/>)
+                post.map( Posts => <Posts  postdata = {Posts}/>)
              } 
     </div>
   )
