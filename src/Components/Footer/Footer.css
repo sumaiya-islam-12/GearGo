@@ -1,0 +1,59 @@
+.bg {
+    background-color: #B34040;
+    margin-top: -50px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-link{
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    list-style-type: none;
+}
+.footer{
+    display: block;
+}
+.Faq{
+    padding-left: 50px;
+}
+.privacy{
+    padding-left: 100px;
+}
+
+p{
+    color: #fff;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+.footer-l{
+    display: flex;
+}
+/* .copyright {
+    display: flex;
+    justify-content:space-between;
+    
+} */
+/* .cpy{
+    padding-left: 500px;
+} */
+.footer-logo-flex{
+    display: flex;
+}
+.text-foot{
+    color:#FFFFFF4D;
+    opacity: 30%;
+}
+.bg-1 {
+    background-color: #B34040;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-top: solid #fff;
+   
+}
+.bg-1-num{
+    padding-left: 550px;
+}
