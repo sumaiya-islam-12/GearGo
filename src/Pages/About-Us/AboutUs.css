@@ -35,9 +35,6 @@
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: #ffffff;
-
-
-
 }
 .background-text-area h5{
     width: 462px;
@@ -55,6 +52,18 @@
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: #ffffff;
-
+}
+.service{
+    color:#E15352;
+    font-family: Author;
+    font-size: 32px;
+    font-weight: 596;
+    line-height: 35.52px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    text-align: center;
+    margin-top: 25px;
 
 }
