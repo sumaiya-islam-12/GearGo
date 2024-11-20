@@ -1,0 +1,31 @@
+
+
+
+.info{
+    display: flex;
+}
+.time{
+    margin-top: 1rem;
+    margin-left: 9rem;
+    color: #E15352;
+    font-family: 'Host Grotesk';
+  
+}
+.information{
+    border-bottom: 3px solid #E15352;
+    width: 33rem;
+}
+.titels{
+   
+   font-size: 25px;
+   color: #E15352;
+   font-family: 'Host Grotesk';
+   margin-top: .6rem;
+}
+ .text-area {
+    font-family: 'Host Grotesk';
+    line-height: 40px; 
+    word-spacing: 1%;
+    margin-top: 2rem;
+}
+
