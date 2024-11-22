@@ -1,0 +1,15 @@
+.blog-area{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-gap:5rem;
+    margin-top: 4rem;
+    margin-left:6rem ;
+    
+}
+.heading p{
+    text-align: center;
+    margin-top: 3rem;
+    font-family: 'Host Grotesk';
+    color: #E15352 ;
+    font-size: 3rem;
+}
