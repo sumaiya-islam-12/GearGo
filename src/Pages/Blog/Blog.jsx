@@ -29,8 +29,8 @@ export default function Blog(){
             }
           </div>
           
-        <div>
-        
+        <div className='pagination'>
+           
         </div>
         </div>
 
