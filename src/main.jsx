@@ -9,6 +9,8 @@ import Blog from './Pages/Blog/Blog.jsx';
 import Contact from './Pages/Contact/Contact.jsx';
 import AboutUs from './Pages/About-Us/AboutUs.jsx';
 import Policy from './Pages/Policy/policy.jsx';
+import Details from './Pages/Details-blog/Details.jsx';
+
 
 const router = createBrowserRouter([
   {
@@ -18,6 +20,10 @@ const router = createBrowserRouter([
   {
     path: '/blog',
     element: <Blog/>
+  },
+  {
+    path: '/details',
+    element: <Details/>
   },
   {
     path: '/contact',

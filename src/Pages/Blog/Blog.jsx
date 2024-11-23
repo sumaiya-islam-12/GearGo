@@ -20,7 +20,7 @@ export default function Blog(){
     <div>
         <Header/>
         <div className='container'>
-          <div className='heading'>
+          <div className='headings'>
             <p>-Blog-</p>
           </div>
           <div className='blog-area'>
@@ -30,11 +30,22 @@ export default function Blog(){
           </div>
           
         <div className='pagination'>
-           
+          
+            <a href="">&lt;</a>
+            <a href="" className='active'>1</a>
+            <a href="">2</a>
+            <a href="">3</a>
+            <a href="">4</a>
+            <a href="">5</a>
+            <a href="">10</a>
+            <a href="">&gt;</a>
+          
+
         </div>
         </div>
 
       <Footer/>
+           
     </div>
   )
 }

@@ -1,15 +1,33 @@
 .blog-area{
     display: grid;
     grid-template-columns: repeat(2 , 1fr);
-    grid-gap:5rem;
+    grid-gap:3rem;
     margin-top: 4rem;
     margin-left:6rem ;
     
 }
-.heading p{
+.headings p{
     text-align: center;
     margin-top: 3rem;
     font-family: 'Host Grotesk';
     color: #E15352 ;
     font-size: 3rem;
+}
+.pagination a {
+    color: #E15352;
+    margin-top: 8rem;
+    padding: 15PX 25PX;
+    color: black;
+    display: inline-block;
+    font-size:22px;
+  
+}
+.pagination{
+    margin-left: 28rem;
+}
+.pagination a.active{
+    background-color: #E15352;
+    border-radius: 12px;
+
+
 }
