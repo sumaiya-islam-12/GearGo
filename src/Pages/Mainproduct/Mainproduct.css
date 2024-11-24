@@ -1,0 +1,240 @@
+.flex{
+    display: flex;
+}
+.add-to{
+    display: flex;
+    margin-top: 30px;
+}
+.add-to div{
+    padding: 0 30px 0 30px;
+}
+.add-to div button{
+    padding: 0 100px 0 100px;
+    border-radius: 100px;
+}
+.sale button{
+    padding: 0 200px 0 200px;
+    border-radius: 100px;
+    margin-top: 30px;
+    margin-left: 50px;
+    align-items: center;
+ 
+}
+span{
+    color: #E15352;
+}
+.cardd{
+  display: flex;
+}
+.cardd div{
+    background-color: antiquewhite;
+    border-radius:0  30px 0 30px;
+    padding: 0 10px 0 20px;
+    margin-right: 10px;
+    
+}
+.img{
+  display: flex;
+
+  /* display: grid;
+  grid-template-columns: repeat(3, 1fr); */
+  
+}
+.gellary-1{
+  margin-top: 30px;
+}
+.gellary-2{
+  margin-top: 30px;
+  
+  padding-left: 100px;
+}
+.gellary-3{
+  margin-top: 30px;
+  width: 100%;
+  padding-left: 100px;
+}
+.car{
+  display: flex;
+  justify-content: space-between;
+}
+/* .bike{
+  background-color: #E15352;
+  opacity: 20%;
+} */
+.biker{
+  background-color: #E15352;
+  opacity: 20%;
+  padding:0 5px 0 5px ;
+  border-radius: 100px;
+
+}
+.review{
+  display: flex;
+  margin-top: 10px;
+}
+.reviews{
+  margin-right: 10px;
+  background-color: #E15352;
+  color: #fff;
+  padding:0 5px 0 5px ;
+  border-radius: 100px;
+}
+p{
+  color: #000;
+  opacity: 60%;
+}
+h1{
+  color: #E15352;
+}
+h5{
+  color: #E15352;
+  font-size: 15px;
+  margin-top: 15px;
+}
+.sim{
+  display: flex;
+  
+}
+.sim div{
+  margin-right: 20px;
+}
+.offer{
+  display: flex;
+}
+.pin{
+  padding-right: 100px;
+  border-radius: 100px;
+ 
+}
+.rating{
+    display: flex;
+    margin-top: 30px;
+    
+}
+.addd div button{
+    color: #E15352;
+    padding: 5px;
+    border-radius: 100px;
+}
+.rating button{
+    margin-left: 500px;
+
+}
+.features{
+    display: flex;
+}
+.services{
+    padding-left: 160px;
+}
+.communication{
+    display: flex;
+}
+.client{
+    text-align: center;
+}
+/* Form Container */
+/* .form-container {
+    margin: 20px auto;
+    max-width: 500px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); */
+    /* border-radius: 10px; */
+  /* } */ */
+  
+  /* Form Styling */
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  /* Form Group */
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+  }
+  
+  .form-group-row {
+    display: flex;
+    gap: 10px;
+  }
+  
+  /* Labels */
+  label {
+    font-size: 14px;
+    /* color: #555; */
+    margin-bottom: 5px;
+  }
+  
+  /* Input Fields */
+  .form-input {
+    padding: 10px;
+   
+    font-size: 14px;
+    width: 100%;
+
+  }
+  
+  textarea.form-input {
+    resize: none;
+  }
+  
+  /* Button */
+  .form-button {
+    
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 0 10px 0 10px;
+    border-radius: 100px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 30px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .form-button:hover {
+    background-color: #c0392b;
+  }
+  .get{
+    text-align: center;
+  }
+  .start{
+    display: flex;
+  }
+
+@media (max-width: 968px) {
+  .flex{
+    display: block;
+    width: 100%;
+}
+  .flex div{
+    padding-left: 100px;
+}
+.img{
+  display: block;
+  width: 100%;
+}
+.gellary-1{
+  text-align: center;
+}
+.yt{
+  text-align: center;
+  padding-left: 390px;
+}
+}
+@media (max-width: 762px) {
+  .flex{
+    display: block;
+    width: 100%;
+}
+}
+@media (max-width: 640px) {
+  .flex{
+    display: block;
+    width: 100%;
+}
+}
