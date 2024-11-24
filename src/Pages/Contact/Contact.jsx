@@ -19,20 +19,29 @@ export default function Contact() {
         <Col>
         <from className="Container-from">
           <input type='name'placeholder=' Name'/>
-          
-          <input type='Phone Number'placeholder='Phone Number'/>
-        
-          <input type='Email'placeholder='Email'/>
-         
-          <input type='Country/Region'placeholder='Country/Region'/>
-           
-          <input type='Interested Product'placeholder='Interested Product'/>
-           
-           <input type='Message'placeholder='Message'/>
-          
-           <input type='check box'placeholder='check box'/>
 
+          <div className='type'>
+                  <input type='Phone Number'placeholder='Phone Number'/>
+                
+                <input type='Email'placeholder='Email'/>
+          </div>
+          
+                
+                  <input type='Country/Region'placeholder='Country/Region'/>
+                  
+                  <input type='Interested Product'placeholder='Interested Product'/>
            
+                <div className='gap'>
+                      <input type='Message'placeholder='Message'/>
+                </div>
+          
+
+                    <div className='checkbox'>
+                                    <input type='checkbox'/>
+                                    <label>
+                                    By submitting this information, I agree to abide by Jimis privacy and I give my consent for Jimi Laboratories to process and store my personal information.
+                                    </label>
+                   </div>
            <button> Send</button>
         
         </from>
