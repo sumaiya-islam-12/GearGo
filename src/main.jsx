@@ -9,6 +9,7 @@ import Blog from './Pages/Blog/Blog.jsx';
 import Contact from './Pages/Contact/Contact.jsx';
 import AboutUs from './Pages/About-Us/AboutUs.jsx';
 import Policy from './Pages/Policy/policy.jsx';
+import Bike from './Pages/Bike/Bike.jsx';
 
 const router = createBrowserRouter([
   {
@@ -35,6 +36,10 @@ const router = createBrowserRouter([
   {
     path: '/policy',
     element: <Policy/>
+  },
+  {
+    path: '/bike',
+    element: <Bike/>
   },
   {
     path: '/pyment',
