@@ -9,6 +9,7 @@ import Blog from './Pages/Blog/Blog.jsx';
 import Contact from './Pages/Contact/Contact.jsx';
 import AboutUs from './Pages/About-Us/AboutUs.jsx';
 import Policy from './Pages/Policy/policy.jsx';
+import Cart from './Pages/Cart/Cart.jsx';
 
 const router = createBrowserRouter([
   {
@@ -39,7 +40,12 @@ const router = createBrowserRouter([
   {
     path: '/pyment',
     element: <Pyment/>
+  },
+  {
+    path: '/cart',
+    element: <Cart/>
   }
+
 ]);
 
 createRoot(document.getElementById('root')).render(
