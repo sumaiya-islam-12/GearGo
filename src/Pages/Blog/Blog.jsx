@@ -19,6 +19,7 @@ export default function Blog(){
   return (
     <div>
         <Header/>
+       
         <div className='container'>
           <div className='headings'>
             <p>-Blog-</p>
@@ -43,6 +44,7 @@ export default function Blog(){
 
         </div>
         </div>
+       
 
       <Footer/>
            

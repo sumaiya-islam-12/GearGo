@@ -7,7 +7,9 @@ export default function keya(props) {
       
     <div className=''>
       <div className="information">
+        <a href="http://localhost:5173/details">
       <img src={url} alt="" />
+      </a>
         <div className='info'>
         <h3 className='titels'>{title}</h3>
         <h6 className='time'>{date}</h6>

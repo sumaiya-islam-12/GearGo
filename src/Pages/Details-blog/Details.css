@@ -20,9 +20,7 @@
     color: #455A64;
     width: 40rem;
     margin-top:2.8rem ;
-    border-top: 2px solid #E15352;
-   
-    
+    border-top: 2px solid #E15352; 
 }
 .picture{
     margin-left: 19rem;
@@ -81,12 +79,112 @@
     margin-top: 2rem;
     margin-left: 25rem;
 
-
-
-
+}
+.input-wrap{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap:2rem;
+    margin-bottom: 2rem;
 }
 
+.input-wrap-2{
+    display: flex;
+    flex-direction: column;
+}
+ input{
+    padding: 0.5rem;
+}
+ .input-wrap-2 input{
+    margin-bottom: 2rem;
+    border-bottom: 2px solid #FB8C89;
+    border-top:1px solid white ;
+    border-left:1px solid white ;
+    border-right:1px solid white ;
+}
+ input{
+    padding: 0.5rem;
+    border-bottom: 2px solid #FB8C89;
+    border-top:1px solid white ;
+    border-left:1px solid white ;
+    border-right:1px solid white ;
+    font-size: 0.9 rem;
+}
+ .input-wrap-2 textarea{
+    padding: 0.5rem;
+    border-bottom:2px solid #FB8C89;
+    border-top:1px solid white ;
+    border-left:1px solid white ;
+    border-right:1px solid white ;
+}
+  input:focus{
+    outline: none;
+}
+ .input-wrap-2 textarea:focus{
+    outline: none;
+} 
+.btn-wrapper button{
+    margin-top: 1.5rem;
+    border-radius: 20px;
+    padding: 5px 30px 5px 30px;
+    background-color: #E15352;
+    color: aliceblue;
+    border: 1px solid #E15352;
+}
+.item{
+    display: flex;
+    gap:10px;
+    margin-left: 7rem;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+.item h3{
+    color: #E15352;
+    font-family: 'Lato';
 
+}
+.item img{
+    height: 30px;
+    width: 30px;
+}
+.item2{
+    display: flex;
+    margin-left: 15rem;
+    margin-top: 1rem;
+ 
+}
+.item2 h6{
+    font-family: 'Lato';
+    color: #E15352;
+    margin-top: .5rem;
+}
+.text2{
+    margin-left: 18rem;
+    width: 48rem;
+    margin-top: .5rem;
+    font-size: 18px;
+    font-family: 'Lato';
+    line-height: 25px;
+    font-weight: 375;
+}
+.mind{
+    border: 1px solid #E1535233;
+    margin-bottom: 5rem;
+    padding: 1.8rem;
+    margin-left: 5rem;
+    background-color:#E1535233 ;
+    border-radius: 50px;
+    
+    
+}
+ .btn-wrapper2 button{
+    margin-bottom: 4rem;
+    border-radius: 20px;
+    padding: 5px 30px 5px 30px;
+    background-color:whitesmoke;
+    color: #E15352;
+    border: 1px solid #E15352;
+   margin-left: 40rem;
+ }
 
    
     
