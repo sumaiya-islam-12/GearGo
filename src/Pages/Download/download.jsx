@@ -6,6 +6,7 @@ export default function Download() {
     <div>
         <Header/>
       <p>Get Gear Go on All your Devices</p>
+      
 
       <Footer/>
     </div>
