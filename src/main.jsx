@@ -10,6 +10,9 @@ import Contact from './Pages/Contact/Contact.jsx';
 import AboutUs from './Pages/About-Us/AboutUs.jsx';
 import Policy from './Pages/Policy/policy.jsx';
 
+import Download from './Pages/Download/download.jsx';
+
+
 const router = createBrowserRouter([
   {
     path: '/',
@@ -39,7 +42,11 @@ const router = createBrowserRouter([
   {
     path: '/pyment',
     element: <Pyment/>
-  }
+  },
+  {
+    path: '/download',
+    element: <Download/>
+  },
 ]);
 
 createRoot(document.getElementById('root')).render(
