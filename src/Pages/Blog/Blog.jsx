@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
-import Keya from '../../Components/Blogkeya/keya';
 import Footer from '../../Components/Footer/Footer';
 import Header from '../../Components/Header/Header';
 import './Blog.css';
+import Keya from '../../Components/Blogkeya/Keya';
 
 
 export default function Blog(){
