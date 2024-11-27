@@ -18,7 +18,8 @@ function CollapsibleExample() {
             
           </Nav>
           <Nav className='p-s-3 text-center'>
-            <Link className='mainmenu' to="/mainproduct" >Mainproduct</Link>
+            <Link className='mainmenu' to="/allproduct" >AllProduct</Link>
+            {/* <Link className='mainmenu' to="/mainproduct" >Mainproduct</Link> */}
             <Link className='mainmenu' to="/blog">Blog</Link>
             <Link className='mainmenu' to="/contact">Contact</Link>
             <Link className='mainmenu' to="/aboutus">About Us</Link>
