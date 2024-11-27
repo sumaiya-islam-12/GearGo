@@ -12,13 +12,13 @@ export default function Contact() {
       <h1 className='contact-tex'>-Contact-</h1>
      <div>
       <Container>
-     <Row>
+     <Row className='row'>
         <Col>
         <img src="/src/assets/Contact/img/undraw_connecting_teams_re_hno7 1.png" alt="" />
         </Col>
         <Col>
-        <from className="Container-from">
-          <input type='name'placeholder=' Name'/>
+        <form className="Container-from">
+          <input type='Name'placeholder=' Name'/>
 
           <div className='type'>
                   <input type='Phone Number'placeholder='Phone Number'/>
@@ -36,7 +36,7 @@ export default function Contact() {
                 </div>
           
 
-                    <div className='checkbox'>
+                    <div className='checkbox-Container'>
                                     <input type='checkbox'/>
                                     <label>
                                     By submitting this information, I agree to abide by Jimis privacy and I give my consent for Jimi Laboratories to process and store my personal information.
@@ -44,7 +44,7 @@ export default function Contact() {
                    </div>
            <button> Send</button>
         
-        </from>
+        </form>
         </Col>
       </Row>
     </Container>
