@@ -9,8 +9,8 @@ import Blog from './Pages/Blog/Blog.jsx';
 import Contact from './Pages/Contact/Contact.jsx';
 import AboutUs from './Pages/About-Us/AboutUs.jsx';
 import Policy from './Pages/Policy/policy.jsx';
-
 import Download from './Pages/Download/download.jsx';
+import PymentMarufa from './Pages/PymentMarufa/PymentMarufa.jsx';
 
 
 const router = createBrowserRouter([
@@ -46,6 +46,10 @@ const router = createBrowserRouter([
   {
     path: '/download',
     element: <Download/>
+  },
+  {
+    path: '/pymentmarufa',
+    element: <PymentMarufa/>
   },
 ]);
 
