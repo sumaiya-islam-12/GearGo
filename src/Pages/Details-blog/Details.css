@@ -8,7 +8,7 @@
     font-size: 22px;
     font-weight: 596;
     margin-top: 5rem;
-    font-family: 'Lato';
+    font-family: 'Lato' sans-serif;
     width: 25rem;
 }
 
@@ -23,17 +23,15 @@
     border-top: 2px solid #E15352; 
 }
 .picture{
-    margin-left: 22rem;
+    margin-left: 17rem;
     margin-top: 5rem;
-  
-
 }
 .heads{
     color: #E15352;
     font-size: 22px;
     font-weight: 596;
     margin-top: 5rem;
-    font-family: 'Lato';
+    font-family: 'Lato'sans-serif;
     text-align: center;
 }
 .heads p{
@@ -41,10 +39,10 @@
     font-weight: 375;
     font-size: 20px;
     line-height: 35px;
-    width: 38rem;
+    width: 45rem;
     margin-left:25rem ;
     margin-top:2rem ;
-    
+    font-family: 'Lato'sans-serif;
 }
 .count{
    margin-left: 28rem;
@@ -52,8 +50,7 @@
    font-size: 18px;
    line-height: 35px;
    color: #455A64;
-   font-family: 'Lato';
-   
+   font-family: 'Lato'sans-serif; 
 }
 .heading .faq{
     color: #455A64; 
@@ -62,14 +59,13 @@
     line-height: 35px;
     width: 40rem;
     margin-top: 2rem;
-    
 }
 .heading2{
     color: #E15352;
     font-size: 22px;
     font-weight: 596;
     margin-top: 5rem;
-    font-family: 'Lato';
+    font-family: 'Lato'sans-serif;
     text-align: center;
 }
  .faqs{
@@ -80,7 +76,6 @@
     width: 45rem;
     margin-top: 2rem;
     margin-left: 25rem;
-
 }
 .input-wrap{
     display: grid;
@@ -135,14 +130,13 @@
 .item{
     display: flex;
     gap:10px;
-    margin-left: 7rem;
+    margin-left: 17rem;
     margin-top: 5rem;
-    margin-bottom: 2rem;
+    margin-bottom: 3.8rem;
 }
 .item h3{
     color: #E15352;
-    font-family: 'Lato';
-
+    font-family: 'Lato'sans-serif;
 }
 .item img{
     height: 30px;
@@ -150,34 +144,33 @@
 }
 .item2{
     display: flex;
-    margin-left: 15rem;
+    margin-left: 17rem;
     margin-top: 1rem;
- 
+    margin-bottom: -4.5rem;
 }
 .item2 h6{
-    font-family: 'Lato';
+    font-family: 'Lato'sans-serif;
     color: #E15352;
     margin-top: .5rem;
 }
 .text2{
-    margin-left: 18rem;
+    margin-left: 14rem;
     width: 48rem;
     margin-top: .5rem;
     font-size: 18px;
-    font-family: 'Lato';
+    font-family: 'Lato'sans-serif;
     line-height: 25px;
     font-weight: 375;
-}
-.mind{
     border: 1px solid #E1535233;
-    margin-bottom: 5rem;
-    padding: 1.8rem;
-    margin-left: 5rem;
-    background-color:#E1535233 ;
-    border-radius: 50px;
-    
-    
-}
+    background:  #E1535233;
+    padding-bottom: 1.8rem; 
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 5rem;
+    width: 56rem;
+    border-radius: 40px;
+    color: #2F2E41; 
+}  
  .btn-wrapper2 button{
     margin-bottom: 4rem;
     border-radius: 20px;
@@ -185,16 +178,240 @@
     background-color:whitesmoke;
     color: #E15352;
     border: 1px solid #E15352;
-   margin-left: 40rem;
- }
+    margin-left: 40rem;
+ } 
+.image img{
+    padding: 2rem;
+}
+.image{
+    padding-left: 10rem;
+    padding-top: 6rem;
+    display: flex;
+}
+.image2{
+    padding-left: 8rem;
+    padding-top: 2rem;
+    display: flex;
+    padding-bottom: 3rem;
+}
+.image2 img{
+    padding: 1rem; 
+}
+
+
+.step p{
+    color: #455A64;
+    width: 40rem;
+    font-family: 'Lato'sans-serif;
+    font-size: 18px;
+    line-height: 34px;
+}
+.step h5{
+    color: #E15352;
+    font-weight: 500;
+    font-family: 'Lato'sans-serif;
+}
+.step{
+    padding-bottom: 4rem;
+    padding-top: 2rem;
+    margin-left: 18rem;
+}
+ .minds{
+    margin-left: 2rem;
+    
+   
+}
+
+
+
 
    
     
+@media (max-width:1024px) {
+    .heading{
+        margin-left: 12rem;
+        width: 22rem;
+    }
+    
+    .text {
+        margin-left: 12rem;
+        color: #455A64;
+        width: 35rem;
+    }
+    .picture {
+        margin-left: 8.5rem;
+        margin-top: 5rem;   
 
+    } 
+    .picture img{
+        height: 450px; ;
+        width: 700px;
+    }
+    .heads p{
+        width: 45rem;
+        margin-left:9rem ;
+    }
+    .count{
+       margin-left: 15rem;
 
+    }
+    .faqs{
+        margin-left: 10.8rem;
+    }
+    .item{
+        margin-left: 7rem;
+    }
+    .text2{
+        margin-left: 4rem;
+        width: 48rem;
+    } 
+    .item2{
+        margin-left: 7rem;
+    }
+    .image{
+        padding-left: 1.8rem;
+    }
+    .image img{
+        padding: .6rem;
+    }
+    .step{
+        margin-left: 10rem;
+    }
+    .image2{
+        padding-left: 1rem;
+    }
+    .btn-wrapper2 button{
+        margin-left: 27rem;
+     } 
 
+}
    
 
+    
+@media (max-width:768px) {
+    .heading{
+        margin-left: 6rem;
+        width: 20rem;
+    }
+    
+    .text {
+        margin-left: 6rem;
+        color: #455A64;
+        width: 34rem;
+    }
+    .picture {
+        margin-left: 3.5rem;  
+    } 
+    .picture img{
+        height: 350px; ;
+        width: 560px;
+    }
+    .heads p{
+        width: 35rem;
+        margin-left:3rem ;
+    }
+    .count{
+       margin-left: 11.5rem;
+
+    }
+    .heading .faq{
+        width: 30rem;
+    }
+    .faqs{
+        margin-left: 5.5rem;
+        width: 30rem;
+    }
+    .item{
+        margin-left: 6rem;
+    }
+    .text2{
+        margin-left: 2rem;
+        width: 38rem;
+    } 
+    .item2{
+        margin-left: 5rem;
+    }
+    .image{
+        padding-left: 1.4rem;
+    }
+    .image img{
+        padding: 1rem;
+    }
+    .step{
+        margin-left: 4rem;
+    }
+    .image2{
+        padding-left: 1rem;
+    }
+    .btn-wrapper2 button{
+        margin-left: 18rem;
+     } 
+
+}  
+
+
+@media (max-width:425px) {
+    .heading{
+        margin-left: 1.3rem;
+        width: 20rem;
+    }
+    
+    .text {
+        margin-left: 1rem;
+        color: #455A64;
+        width: 23rem;
+    }
+    .picture {
+        margin-left: 1.2rem;  
+    } 
+    .picture img{
+        height: 260px; ;
+        width: 370px;
+    }
+    .heads p{
+        width: 23rem;
+        margin-left:1.2rem ;
+    }
+    .count{
+       margin-left: 5rem;
+
+    }
+    .heading .faq{
+        width: 22.8rem;
+    }
+    .faqs{
+        margin-left: 1.8rem;
+        width: 22.6rem;
+    }
+    .item{
+        margin-left: 2rem;
+    }
+    .text2{
+        margin-left: .5rem;
+        width: 21rem;
+    } 
+    .item2{
+        margin-left: 3rem;
+    }
+    .image{
+        padding-left: 5rem;
+  
+    }
+    .image img{
+        padding: 1rem;
+  
+    }
+    .step{
+        margin-left: 3rem;
+    }
+    .step p{
+        width: 20rem;
+    }
+    .image2{
+        padding-left: 5rem;
+    }
+    .btn-wrapper2 button{
+        margin-left: 8rem;
+     } 
    
-   
-   
+    }

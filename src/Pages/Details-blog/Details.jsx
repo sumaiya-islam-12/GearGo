@@ -100,16 +100,37 @@ useEffect(() => {
         <h3>Comments</h3>
       </div>
 
-      <div className='mind'>
-        <div className='item2'>
+      <div className='minds'>
+         <div className='item2'>
           <img src="https://i.ibb.co.com/QMxh7Np/Ellipse-580.png" alt="" />
           <h6>Fleet Vehicle Tracking</h6>
         </div>
 
         <div className='text2'>
         Pellentesque feugiat sem nec lacus ultricies gravida. Sed metus risus, fringilla ut velit quis, vulputate elementum nisi. Proin rhoncus quis lectus sed sollicitudin. Pellentesque et sollicitudin velit.
+        </div> 
+      </div>
+
+        <div className='image'>
+          <div><img src="/src/assets/Blog-img/Product Card.png" alt="" /></div>
+          <div><img src="/src/assets/Blog-img/Product Card.png" alt="" /></div> 
+          <div><img src="/src/assets/Blog-img/Product Card.png" alt="" /></div>
+          <div><img src="/src/assets/Blog-img/Product Card.png" alt="" /></div> 
+          
         </div>
 
+        <div className='step'>
+          <h5>To buy AIS 140 GPS devices</h5>
+          <p>Call Now +91 – 1800 103 0274</p>
+          <p>Drop Whatsapp message +91 – 78272 17494 for any queries about how to choose a tracker or to book Onelap Telematics (Hardware or Software solution).</p>
+        </div>
+
+        <div className='image2'>
+          <div><img src="/src/assets/Blog-img/Group 244.png" alt="" /></div>
+           <div><img src="/src/assets/Blog-img/Group 244.png" alt="" /></div> 
+           <div><img src="/src/assets/Blog-img/Group 244.png" alt="" /></div> 
+           <div><img src="/src/assets/Blog-img/Group 244.png" alt="" /></div>
+          <div><img src="/src/assets/Blog-img/Group 244.png" alt="" /></div> 
         </div>
     
 

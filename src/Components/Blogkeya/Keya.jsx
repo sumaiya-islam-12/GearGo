@@ -3,7 +3,7 @@ import {useNavigate} from "react-router-dom";
 
 
 export default function Keya(props) {
-  const {url, title1, date, body, id} = props.blogdata;
+  const {url, title1, date, body,id } = props.blogdata;
   const navigate = useNavigate();
 
 
@@ -19,7 +19,7 @@ export default function Keya(props) {
     return (
       
     <div className=''>
-      <h1>{id}</h1>
+      {/* <h1>{id}</h1> */}
       <div className="information">
         <div className='pic'>
       <button onClick={() => handleDetails(id)}>
