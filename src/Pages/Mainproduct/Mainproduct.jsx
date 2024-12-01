@@ -3,7 +3,6 @@ import { useParams } from "react-router-dom"
 // import { useEffect, useState } from 'react';
 import Footer from '../../Components/Footer/Footer';
 import Header from '../../Components/Header/Header';
-
 import {faHeart} from "@fortawesome/free-regular-svg-icons";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './Mainproduct.css'

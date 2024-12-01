@@ -7,54 +7,203 @@
     max-width: 1440px;
     width: 96%;
 }
-.background-img{
-    background-image:url('/src/assets/About-Us/img/banner.png');
-    height: 616PX;
+.banner-img{
+    background:url('/src/assets/About-Us/img/banner.png');
     background-size: cover;
     background-repeat: no-repeat;
-    width: 1280px;
-    height: 474px;
-    top: 56px;
-    gap: 0px;
-    opacity: 0px;
+    width: 1280px auto;
+    height: 454px;
+}
 
-   }
-.background-text-area h1{
-    width: 534px;
-    height: 36px;
-    top: 252px;
-    left: 373px;
-    gap: 0px;
-    opacity: 0px;
-    font-family: Author;
-    font-size: 32px;
-    font-weight: 596;
-    line-height: 35.52px;
-    letter-spacing: 0.01em;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
+.banner-text-area h2{
     color: #ffffff;
-
-
+    text-align: center;
+    padding-top: 190px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.banner-text-area h5{
+    color: #ffffff;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;   
+}
+.service {
+    color:#E15352;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
 
 }
-.background-text-area h5{
-    width: 462px;
-    height: 35px;
-    top: 298px;
-    left: 409px;
-    gap: 0px;
-    opacity: 0px;
+.ourcore{
+    color:#E15352;
+    padding-top: 1.5rem;
+}
+.ourcore p{
+    color: #455A64;
+    width: 35rem;
+    padding-top: 2rem;
+}
+.management span{
+    border-bottom: 3px solid #E15352;
+    width: 30%;
+    padding-bottom: 1rem;
+    margin-right: 10px;
+}
+.flex-1{
+    display: flex;
+    padding-top: 2rem;
+}
+.vehi{
+    color:#E15352;
+    margin-left: 2rem;
+    margin-top: 5px
+}
+.main p{
+  
+    color:#455A64;
+    width: 30rem;
+}
+.flex-2{
+    display: flex;
+    padding-top: 2rem
+}
+.fleet{
+    color: #E15352;
+     margin-left: 2rem;
+    margin-top: 5px;
+}
+.other{
+    color:#455A64;
+    margin-left: 5px;
+    margin-top: 5px;
+    width: 30rem;
+}
+.flex-3{
+    display: flex;
+   padding-top: 2rem;
+}
+.public{
+    color: #E15352;
+    margin-left: 2rem;
+    margin-top: 5px;  
+}
+.our{
+    color:#455A64; 
+    width: 30rem; 
+}
+.service{
+    padding-top: 1rem;
+}
+.service span{
+    color: #000;
+ }
+.story{
+    color:#E15352;
     font-family: Author;
-    font-size: 20px;
-    font-weight: 375;
-    line-height: 35px;
-    letter-spacing: 0.01em;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-    color: #ffffff;
-
+    text-align: center;
+    margin-top: 25px;
+    padding: 20px;   
+}
+.story span{
+    color: #000;
+ }
+.flex-4{
+    display: flex;
+    margin-left: 10px;
+}
+.flex-5{
+    display: flex;
+    margin-top: 3rem;
+}
+.number{    
+    Size: 32px;
+    font-weight: 596px;
+    color: #E15352;
+    margin-left: 25px;
 
 }
+.text{
+    color: #455A64;
+    margin-left: 1rem;
+    border-bottom: 3px solid #E15352;
+    padding-bottom: 50px;
+      
+}
+.number-2{
+    margin-left: 10rem;
+}
+.number-3{
+    margin-top: 3rem;
+    color: #E15352;
+    margin-left: 1rem;
+}
+.fastest{
+    color: #E15352;
+    margin-left: 10rem;
+}
+.fastest span{
+    border-bottom: 3px solid #E15352;
+    padding-bottom: 20px;
+}
+.we{
+    color:#455A64;
+    margin-left: 10rem;
+    margin-top: 2rem;
+}
+ 
+.leaf{
+    color:#E15352;
+    font-family: Author;
+    text-align: center;
+    margin-top: 25px;
+    padding: 20px; 
+}
+.leaf span{
+    color: #000;
+ }
+.leaves{
+    display: flex;
+    margin-left: 25rem;
+    padding-top: 8px;
+    text-align: center;  
+}
+
+
+
+
+
+@media screen and (max-width: 1024px){
+    .banner-img{
+        height: 300px;
+        width: 100% auto;
+        background-size: cover; 
+       }
+       .leaves{
+        display: block;
+        width: 100%;
+       }
+    
+}
+@media screen and (max-width: 768px){
+    .banner-img{
+        height: 300px;
+        width: 100% auto;
+        background-size: cover; 
+       }
+       .leaves{
+        display: block;
+        width: 100%;
+       }  
+     
+}
+@media screen and (max-width: 425px){
+    .banner-img{
+        height: 300px;
+        width: 100% auto;
+        background-size: cover;
+       }
+       .leaves{
+        display: block;
+        width: 100%;
+       }
+        
+} 
