@@ -18,11 +18,13 @@ body {
   .text {
     color:  #E15352;
     text-align: center;
+   
   }
   
   .image-area img{
     max-width: 100%;
     height: auto;
+    margin-top: 20px;
   }
   
   .button-area {
@@ -40,11 +42,11 @@ body {
     cursor: pointer;
   }
   
-  .phone-area button:hover {
-    background-color: #0056b3;
-    width: 36px;
-    height:37px ;
-    top: 35px; ;
+  .phone-area {
+    max-width: 10%;
+    height: auto;
+    margin-top: auto;
+ 
   }
   
   .store-div {
