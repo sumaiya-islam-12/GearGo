@@ -220,6 +220,8 @@ h5{
 }
 .gellary{
   display: flex;
+  text-align: center;
+  width: 100%;
 }
 .yt{
   text-align: center;
