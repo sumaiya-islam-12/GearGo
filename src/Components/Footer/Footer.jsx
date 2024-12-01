@@ -9,10 +9,10 @@ export default function Footer() {
         <div className='bg'>
        <div>
        <a href="#"> <img src="/src/assets/logo/Logo (2).png" alt="#" /></a>
-       <p>Trackon Nepal Pvt. Ltd. is a GPS Tracking company, offering 
+       <p className='p'>Trackon Nepal Pvt. Ltd. is a GPS Tracking company, offering 
         <br />professional vehicle tracking and fleet management solutions <br /> in Nepal.
        </p>
-       <p>We provide Trackon GPS, the most affordable and innovative 
+       <p className='p'>We provide Trackon GPS, the most affordable and innovative 
         <br />tracking system on the market today. Our GPS trackers are <br />
         scalable and can offer extensive functionality, depending on <br /> your needs.</p>
         <div className=''>
