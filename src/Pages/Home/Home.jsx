@@ -1,11 +1,20 @@
+import Footer from "../../Components/Footer/Footer";
 import Header from "../../Components/Header/Header";
+
 
 
 export default function Home() {
   return (
     <div>
         <Header/>
-        <h1>Home</h1>
+          <div>
+          <h1 className="home-head">Keep All Controls <span>Of Your Vehicles</span> In your Hand!</h1>
+          <img src="/src/assets/Home/artwork.png" alt="" />
+          <img src="/src/assets/Home/Group.png" alt="" />
+          </div>
+
+
+        <Footer></Footer>
     </div>
   )
 }
