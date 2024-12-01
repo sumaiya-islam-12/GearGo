@@ -21,14 +21,14 @@ export default function AboutUs() {
             </div>
         
             <div>
-                <div className='service'>
+                <div className='services'>
                     <h2><span>-</span>  Our Services <span>-</span> </h2>
                 </div>
             </div>
             <div>
                 <Container>
                 <Row>
-                    <Col xs={12} sm={12} md={8}>
+                    <Col xs={12} sm={12} md={6}>
                         <div className='ourcore'>
                             <h2>Our Core Service is to Make Fleet</h2>
                             <h2 className='management'><span>Management</span> Easier.</h2>
@@ -36,6 +36,7 @@ export default function AboutUs() {
                             fleet management with ease. You will be provided with overall all tools
                             to manage your vehicles, passengers, transport, and all.</p>
                         </div>
+                        <div>
                         <div className='flex-1'>
                             <div className='img-1'>
                                 <img src="/src/assets/About-Us/img/gps.png" alt="" />
@@ -56,7 +57,7 @@ export default function AboutUs() {
                                 <h4 className='fleet'>Fleet Management System</h4>
                             </div>
                         </div>
-                        <div>
+                        <div className='second-section'>
                              <p className='other'>Our other system is fleet management which can help you to manage 
                                 large numbers of vehicles. You can track records of fuels, drivers,
                                 vehicle conditions, servicing, and all.</p>
@@ -73,7 +74,9 @@ export default function AboutUs() {
                             <p className='our'>Our other system is fleet management which can help you to manage 
                                 large numbers of vehicles. You can track records of fuels, drivers,
                                  vehicle conditions, servicing, and all.</p>
+                        </div> 
                         </div>
+                       
                     </Col>
                     <Col xs={12} sm={12} md={4}>
                     <div className='service container'>
@@ -89,7 +92,6 @@ export default function AboutUs() {
                     <h2 className='story'><span>-</span> Our Story <span>-</span> </h2>
                 </div>
                 <div className='flex-5 container'>
-                  <div className='flex-4 container'>
                     <div className='active container'>
                         <h3 className='number'>3000+</h3>
                         <h6 className='text'>Active Users</h6>
@@ -102,8 +104,8 @@ export default function AboutUs() {
                         <h3 className='number-3'>1000+/S</h3>
                         <h6 className='text'>GPS Data Hits</h6>
                     </div>
-                  </div>
-                  <div className='container'>
+                
+                  <div className=' fastest-growing container'>
                     <h2 className='fastest'>Fastest Growing GPS Tracking System in<span> Nepal</span> </h2>
                     <p className='we'>We are the fastest-growing GPS tracking system built locally in Nepal .
                          We are a team of young minds who have a dream to make Nepal 

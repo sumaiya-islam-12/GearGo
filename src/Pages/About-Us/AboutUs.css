@@ -12,13 +12,13 @@
     background-size: cover;
     background-repeat: no-repeat;
     width: 1280px auto;
-    height: 454px;
+    height: 754px;
 }
 
 .banner-text-area h2{
     color: #ffffff;
     text-align: center;
-    padding-top: 190px;
+    padding-top: 22rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .banner-text-area h5{
@@ -26,12 +26,20 @@
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;   
 }
-.service {
+.services {
     color:#E15352;
     text-align: center;
     margin-top: 20px;
     padding: 20px;
-
+}
+.services span{
+    color: #000;
+ }
+ .service{
+    padding-top: 1rem;
+}
+.service img{
+    padding-left: 8rem;
 }
 .ourcore{
     color:#E15352;
@@ -90,12 +98,8 @@
     color:#455A64; 
     width: 30rem; 
 }
-.service{
-    padding-top: 1rem;
-}
-.service span{
-    color: #000;
- }
+
+
 .story{
     color:#E15352;
     font-family: Author;
@@ -106,13 +110,10 @@
 .story span{
     color: #000;
  }
-.flex-4{
-    display: flex;
-    margin-left: 10px;
-}
 .flex-5{
     display: flex;
     margin-top: 3rem;
+    
 }
 .number{    
     Size: 32px;
@@ -139,6 +140,7 @@
 .fastest{
     color: #E15352;
     margin-left: 10rem;
+    width: 30rem;
 }
 .fastest span{
     border-bottom: 3px solid #E15352;
@@ -173,37 +175,70 @@
 
 @media screen and (max-width: 1024px){
     .banner-img{
-        height: 300px;
-        width: 100% auto;
+        height: 754px;
+        width: 1500px;
         background-size: cover; 
        }
-       .leaves{
-        display: block;
-        width: 100%;
+       .banner-text-area{
+        margin-right: 3rem;
+        text-align: center;
        }
+       .banner-text-area h5{
+        padding-bottom: 20rem;
+
+       }
+      .ourcore{
+        margin-left: 2rem;
+      }
+       .leaf{
+        margin-left: 9rem;
+       }
+        .active{
+        padding-left: 4rem;
+       }
+     .fastest-growing{
+        padding-right: 23rem;
+     }
+     .leaves{
+        margin-left: 15rem;
+     }
+      
     
 }
 @media screen and (max-width: 768px){
     .banner-img{
-        height: 300px;
+        height: 500px;
         width: 100% auto;
         background-size: cover; 
        }
        .leaves{
         display: block;
         width: 100%;
+        text-align: center;
        }  
+       .service{
+        padding-left: 10rem;
+       }
+    
      
 }
 @media screen and (max-width: 425px){
     .banner-img{
         height: 300px;
-        width: 100% auto;
+        width: 100%;
         background-size: cover;
        }
        .leaves{
         display: block;
         width: 100%;
+        text-align: center;
+       }  
+       .service{
+       padding-left: 30rem;
+       }
+       .leaf{
+        margin-left: 9rem;
+        text-align: center;
        }
         
 } 
