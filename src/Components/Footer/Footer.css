@@ -14,12 +14,12 @@ li{
 .footer{
     display: block;
 }
-.Faq{
+/* .Faq{
     padding-left: 50px;
-}
-.privacy{
+} */
+/* .privacy{
     padding-left: 100px;
-}
+} */
 
 .p{
     color: #fff;
@@ -31,14 +31,7 @@ a {
 .footer-l{
     display: flex;
 }
-/* .copyright {
-    display: flex;
-    justify-content:space-between;
-    
-} */
-/* .cpy{
-    padding-left: 500px;
-} */
+
 .footer-logo-flex{
     display: flex;
 }
@@ -48,11 +41,14 @@ a {
 }
 .bg-1 {
     background-color: #B34040;
-    padding: 10px;
+    /* padding: 10px; */
     display: flex;
     justify-content: space-between;
     border-top: solid #fff;
    
+}
+.pera{
+    padding-left: 40px;
 }
 .bg-1-num{
     padding-left: 550px;
@@ -86,3 +82,11 @@ a {
         padding-left: 0px;
     }
 }
+/* .copyright {
+    display: flex;
+    justify-content:space-between;
+    
+} */
+/* .cpy{
+    padding-left: 500px;
+} */
