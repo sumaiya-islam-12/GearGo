@@ -9,9 +9,11 @@ import Blog from './Pages/Blog/Blog.jsx';
 import Contact from './Pages/Contact/Contact.jsx';
 import AboutUs from './Pages/About-Us/AboutUs.jsx';
 import Policy from './Pages/Policy/policy.jsx';
+import AllProduct from './Pages/AllProduct/AllProduct.jsx';
+// import ProductDetails from './Components/ProductDetails/ProductDetails.jsx';
 
 import Download from './Pages/Download/download.jsx';
-
+import Car from './pages/Car-takia/car.jsx'
 
 const router = createBrowserRouter([
   {
@@ -27,8 +29,18 @@ const router = createBrowserRouter([
     element: <Contact/>
   },
   {
-    path: '/mainproduct',
+    path: '/allproduct',
+    element: <AllProduct/>
+    
+  },
+  {
+    path: '/mainproduct/:id',
     element: <Mainproduct/>
+    
+  },
+  {
+    path: '/car',
+    element: <Car/>
     
   },
   {
