@@ -1,38 +1,41 @@
 [
     {
-        "image url":"https://ibb.co.com/fQTmVpd",
-        "Title":"GearGo Micro GPS Tracking Device"
+        "id": 1,
+        "url":"https://i.ibb.co.com/tpZfx57/Soft-Box-Mockup-02-1-1.png",
+        "review":"7000+",
+        "title":"GearGo Micro GPS Tracking Device",
+        "mrp":"$4000",
+        "offerprize":"$3800"
+        
+
     },
     {
-        "image url":"https://ibb.co.com/fQTmVpd",
-        "Title":"GearGo Micro GPS Tracking Device"
+        "id": 2,
+        "url":"https://i.ibb.co.com/80x38pZ/images.jpg",
+        "review":"6000+",
+        "title":"Information collected and used",
+        "mrp":"$5090",
+        "offerprize":"$4000"
+        
+
     },
     {
-        "image url":"https://ibb.co.com/fQTmVpd",
-        "Title":"GearGo Micro GPS Tracking Device"
+        "id": 3,
+        "url":"https://i.ibb.co.com/R7NmFPS/download-Copy.jpg",
+        "review":"4000+",
+        "title":"Use of personal information",
+        "mrp":"$7000",
+        "offerprize":"$6700"
+
     },
     {
-        "image url":"https://ibb.co.com/fQTmVpd",
-        "Title":"GearGo Micro GPS Tracking Device"
-    },
-    {
-        "image url":"https://ibb.co.com/fQTmVpd",
-        "Title":"GearGo Micro GPS Tracking Device"
-    },
-    {
-        "image url":"https://ibb.co.com/fQTmVpd",
-        "Title":"GearGo Micro GPS Tracking Device"
-    },
-    {
-        "image url":"https://ibb.co.com/fQTmVpd",
-        "Title":"GearGo Micro GPS Tracking Device"
-    },
-    {
-        "image url":"https://ibb.co.com/fQTmVpd",
-        "Title":"GearGo Micro GPS Tracking Device"
-    },
-    {
-        "image url":"https://ibb.co.com/fQTmVpd",
-        "Title":"GearGo Micro GPS Tracking Device"
+        "id": 4,
+        "url":"https://i.ibb.co.com/TBpzFWs/images-1-Copy.jpg",
+        "title":"gearGo Micro with Vi Sim - 1 year",
+        "review":"9000+",
+        "mrp":"$3190",
+        "offerprize":"$2000"
     }
+    
+  
 ]
