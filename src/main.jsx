@@ -9,6 +9,7 @@ import Blog from './Pages/Blog/Blog.jsx';
 import Contact from './Pages/Contact/Contact.jsx';
 import AboutUs from './Pages/About-Us/AboutUs.jsx';
 import Policy from './Pages/Policy/policy.jsx';
+import PaymentSanjida from './Pages/PaymentSanjida/PaymentSanjida.jsx';
 
 const router = createBrowserRouter([
   {
@@ -39,6 +40,10 @@ const router = createBrowserRouter([
   {
     path: '/pyment',
     element: <Pyment/>
+  },
+  {
+    path: '/pymentsanjida',
+    element: <PaymentSanjida/>
   }
 ]);
 
