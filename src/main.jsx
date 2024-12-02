@@ -47,8 +47,16 @@ const router = createBrowserRouter([
   },
   {
     path: '/policy',
-    element: <Policy/>
+    element: <Policy/>,
+    // children: [
+    //   {
+    //     path: "/informationcollectedandused",
+    //     element: <div>Hello</div>,
+    //   },
+    // ],
+
   },
+
   {
     path: '/bike',
     element: <Bike/>
