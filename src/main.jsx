@@ -11,7 +11,6 @@ import AboutUs from './Pages/About-Us/AboutUs.jsx';
 import AllProduct from './Pages/AllProduct/AllProduct.jsx';
 import Policy from './Pages/Policy/policy.jsx';
 import Bike from './Pages/Bike/Bike.jsx';
-import AllProduct from './Pages/AllProduct/AllProduct.jsx';
 
 const router = createBrowserRouter([
   {
