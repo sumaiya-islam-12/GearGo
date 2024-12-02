@@ -3,6 +3,7 @@
     height: 474px;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: top;
     color: white;
     text-align: left;
     padding: 4rem 1rem;
@@ -183,6 +184,10 @@
     margin: 5%;
   }
 
+  .payment-area{
+    display: flex;
+  }
+
   .phone-img{
     position: absolute;
     margin-top: -12%;
@@ -222,7 +227,7 @@
     }
     .banner-section{
       height: 100%;
-      width: 100%;
+      width:474px;
     }
     .phone-img{
       height:100%;
