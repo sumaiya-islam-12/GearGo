@@ -149,7 +149,7 @@ return (
             {/* <!-- App section start --> */}
             <div className="container">
                 <div className="app-section">
-                    <div className="app-card-area">
+                    <div className="phone-area">
                         <div className='app-card'>
                         <h4>With our one-of-a-kind bike GPS tracker app, you can learn more about your bike.</h4>
                         <p>Our bike GPS solution includes the ability to track your bike from any location using a single mobile application. Whether you`re looking for Bike GPS tracker app on Android or iPhone, we`ve got you covered.</p>   

@@ -2,6 +2,7 @@
     background:-webkit-linear-gradient(rgba(0, 0, 0, 0.348),rgba(0, 0, 0, 0.348)), url('/src/assets/Fleet/Image/Fleet.png');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: top;
     color: white;
     text-align: left;
     padding: 4rem 1rem;
@@ -181,6 +182,10 @@
   .app-card-area{
     display: flex;
     margin: 5%;
+  }
+
+  .phone-area{
+    display: flex;
   }
 
   .phone-img{
