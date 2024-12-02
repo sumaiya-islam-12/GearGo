@@ -218,8 +218,10 @@ h5{
   display: block;
   width: 100%;
 }
-.gellary-1{
+.gellary{
+  display: flex;
   text-align: center;
+  width: 100%;
 }
 .yt{
   text-align: center;

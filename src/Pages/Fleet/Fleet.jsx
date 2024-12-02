@@ -9,9 +9,9 @@ return (
         <Header/>
 
                     {/* <!-- Banner Section Start --> */}
-            <section className="banner-section">
+            <section className="banner">
                 <div className="container">
-                    <div className="banner-card-area">
+                    <div className="banner-card">
                         <div>
                             <h1>Best Fleet Tracking<br/>System in Nepal</h1>
                             <p>Save up to 20% annually on fuel with<br/> Trackons Fleet Tracking</p>
@@ -31,46 +31,46 @@ return (
             {/* <!-- Banner section close --> */}
 
 
-            {/* <!-- feature section start --> */}
+            {/* <!-- best gps section start --> */}
             <div className="container">
-            <div className="features-section">
+            <div className="best-gps-section">
                 <h2>-Why is Trackon GPS the Best GPS Fleet Tracker in Nepal?-</h2>
 
                 <div className="card-area">
-                    <div className="feature">
-                    <h4><img src="/src/assets/Fleet/Image/Icon material-location-on.png" className="icon"/>GPS Tracking for Fleets</h4>
+                    <div className="best-gps">
+                    <h4><img src="/src/assets/Fleet/Image/Icon material-location-on.png" className="mark"/>GPS Tracking for Fleets</h4>
                         <p>Stay assured about the security of your bike, no matter where it is. Trackon Bike GPS tracker allows you to track and monitor your asset intelligently to avoid theft.
                         </p>
                     </div>
-                    <div className="feature">
-                        <h4><img src="/src/assets/Fleet/Image/Icon material-settings-remote.png" className="icon"/> Remote Lock for Fleetsk</h4>
+                    <div className="best-gps">
+                        <h4><img src="/src/assets/Fleet/Image/Icon material-settings-remote.png" className="mark"/> Remote Lock for Fleetsk</h4>
                         <p>The bike GPS device from Trackon allows you to lock and unlock your bike remotely. Use our bike GPS tracker to maintain complete control over your vehicle..</p>
                     </div>
-                    <div className="feature">
-                    <h4><img src="/src/assets/Fleet/Frame.png" className="icon"/>Multiple Alerts</h4>
+                    <div className="best-gps">
+                    <h4><img src="/src/assets/Fleet/Frame.png" className="mark"/>Multiple Alerts</h4>
                         <p>Get instant SMS/Notification alerts of specific events such as ignition turn, over-speeding, geo-fence, bike theft attempt, etc., with our bike GPS security system.</p>
                     </div>
-                    <div className="feature">
-                    <h4><img src="/src/assets/Fleet/Image/Icon awesome-shield-alt.png" className="icon"/>Fleet Safety at its Finest</h4>
+                    <div className="best-gps">
+                    <h4><img src="/src/assets/Fleet/Image/Icon awesome-shield-alt.png" className="mark"/>Fleet Safety at its Finest</h4>
                         <p>Our Bike GPS tracking system gives you complete control over your vehicle. You can keep track of your bike movements and make sure its parked where it intended to be.</p>
                     </div>
-                    <div className="feature">
-                        <h4><img src="/src/assets/Fleet/Image/Icon ionic-md-speedometer.png" className="icon"/> Monitor Fuel Expenses</h4>
+                    <div className="best-gps">
+                        <h4><img src="/src/assets/Fleet/Image/Icon ionic-md-speedometer.png" className="mark"/> Monitor Fuel Expenses</h4>
                         <p>Trackon can help you save a lot of money on petrol and keep track of your fuel costs. With our GPS tracking app, you can monitor your riding habits and save your expenses daily.</p>
                     </div>
-                    <div className="feature">
-                        <h4><img src="/src/assets/Fleet/Image/Icon ionic-md-speedometer (1).png" className="icon"/>Fleet Reports</h4>
+                    <div className="best-gps">
+                        <h4><img src="/src/assets/Fleet/Image/Icon ionic-md-speedometer (1).png" className="mark"/>Fleet Reports</h4>
                         <p>Trackon can help you save a lot of money on petrol and keep track of your fuel costs. With our GPS tracking app, you can monitor your riding habits and save your expenses daily.</p>
                     </div>   
                 </div>
                 <button type="submit" className="bttn">Request Demo</button>
             </div>
             </div>
-            {/* <!-- feature section close --> */}
+            {/* <!-- best gps section close --> */}
 
             {/* <!-- checkbox-secion start --> */}
             <div className="container">
-            <div className="comparison-section">
+            <div className="compare-section">
                 <h2></h2>
                 <table>
                     <thead>
@@ -127,8 +127,8 @@ return (
             </div>
             {/* <!-- checkbox-section close --> */}
 
-            {/* <!-- Tracker section start --> */}
-            <section className="tracker-section">
+            {/* <!-- management section start --> */}
+            <section className="management-section">
                 <div className="container">
                     <div className="card-area">
                         <div>
@@ -146,11 +146,11 @@ return (
                 </div>
             </section>
             
-            {/* <!-- App section start --> */}
+            {/* <!-- App tracker section start --> */}
             <div className="container">
-                <div className="app-section">
-                    <div className="phone-area">
-                        <div className='app-card'>
+                <div className="app-tracker-section">
+                    <div className="phone-tracker-area">
+                        <div className='app-tracker-card'>
                         <h4>With our one-of-a-kind bike GPS tracker app, you can learn more about your bike.</h4>
                         <p>Our bike GPS solution includes the ability to track your bike from any location using a single mobile application. Whether you`re looking for Bike GPS tracker app on Android or iPhone, we`ve got you covered.</p>   
                             
@@ -164,36 +164,36 @@ return (
                         </div>
 
                         <div>
-                            <img className="phone-img" src="/src/assets/Fleet/Image/mockrocket-capture (5) 1 (1).png" alt=""/>
+                            <img className="phone-tracker-img" src="/src/assets/Fleet/Image/mockrocket-capture (5) 1 (1).png" alt=""/>
                         </div>         
                     </div>  
                 </div>
                 </div>
                 
-                 {/* <!-- Book section start --> */}
-                <section id="book-area">
-                <div className="book-area-start">
+                 {/* <!-- device section start --> */}
+                <section id="device-area">
+                <div className="device-area-start">
                     <div className="container">
-                        <div className='book-text'>
+                        <div className='device-text'>
                             <h2>-Checkout Trackon`s Product to Protect Your Fleet-</h2>
-                            <div className="book-card">
-                                <div className="book">
+                            <div className="device-card">
+                                <div className="device">
                                     <img src="/src/assets/Fleet/Image/Soft Box Mockup 02 1.png" alt=""/>
                                     <p>GearGo Micro GPS Tracking Device</p>
                                 </div>
-                                <div className="book">
+                                <div className="device">
                                     <img src="/src/assets/Fleet/Image/Soft Box Mockup 02 1.png" alt=""/>
                                     <p>GearGo Micro GPS Tracking Device</p>
                                 </div>
-                                <div className="book">
+                                <div className="device">
                                     <img src="/src/assets/Fleet/Image/Soft Box Mockup 02 1.png" alt=""/>
                                     <p>GearGo Micro GPS Tracking Device</p>
                                 </div>
-                                <div className="book">
+                                <div className="device">
                                     <img src="/src/assets/Fleet/Image/Soft Box Mockup 02 1.png" alt=""/>
                                     <p>GearGo Micro GPS Tracking Device</p>
                                 </div>
-                                <div className="book">
+                                <div className="device">
                                     <img src="/src/assets/Fleet/Image/Soft Box Mockup 02 1.png" alt=""/>
                                     <p>GearGo Micro GPS Tracking Device</p>
                                 </div>

@@ -1,4 +1,4 @@
-.banner-section{
+.banner{
     background:-webkit-linear-gradient(rgba(0, 0, 0, 0.348),rgba(0, 0, 0, 0.348)), url('/src/assets/Fleet/Image/Fleet.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -9,18 +9,18 @@
     height: 474px;
   }
   
-.banner-card-area{
+.banner-card{
     display: flex;
     justify-content: space-between;
   }
 
-.banner-card-area h1 {
+.banner-card h1 {
    color: white;
    font-size: 2rem;
    margin-bottom: 1rem;
   }
 
-.banner-card-area p{
+.banner-card p{
     color:white;
 }
 
@@ -71,48 +71,48 @@
 }
   
   
-  /* Features Section */
-.features-section h2{
+  /*best gps Section */
+.best-gps-section h2{
   color: #E15352;
 }
-  .features-section {
+  .best-gps-section {
     padding: 2rem 1rem;
     text-align: center;
   }
   
-  .feature {
+  .best-gps {
     padding: 1rem;
     margin: 1rem;
     border-bottom: 2px solid #E15352;
     text-align: left;
   }
 
-  .feature h4{
+  .best-gps h4{
     color: #E15352;
   }
 
- .feature p{
+ .best-gps p{
   color: #827e7e;
  }
 
- .icon{
+ .mark{
   padding: 0.8rem;
   margin-right: 1rem;
   background: #e1525242;
   border-radius: 48%;
  }
 
- img.icon{
+ img.mark{
   font-size:8px;
   transform:translateY(5%);
  }
   
   /* Comparison Section */
-  .comparison-section {
+  .compare-section {
     padding: 2rem 1rem;
     text-align: center;
   }
-  .comparison-section h2 {
+  .compare-section h2 {
     color: #E15352;
   }
   
@@ -140,22 +140,22 @@
     color: #827e7e;
   }
 
-/* Tracker section start */
-.tracker-section img{
+/* Tracker management section start */
+.management-section img{
     height: 260px;
     width: 300px;
   }
-  .tracker-section h4{
+  .management-section h4{
     color: #E15352;
   }
 
- .tracker-section p{
+ .management-section p{
     color: #827e7e;
     line-height:1.5rem;
   
  }
-  /* App Section */
-  .app-section {
+  /* App tracker Section */
+  .app-tracker-section {
     padding: 3rem;
     text-align: left;
     background: #E15352;
@@ -165,30 +165,30 @@
     margin-bottom: 10%;
   }
 
-  .app-card{
+  .app-tracker-card{
     width: 40%;
   }
 
-  .app-card h4{
+  .app-tracker-card h4{
     color: white;
     font-size: 2rem;
   }
 
-  .app-card p{
+  .app-tracker-card p{
     line-height:2rem;
   }
 
 
-  .app-card-area{
+  .app-tracker-card-area{
     display: flex;
     margin: 5%;
   }
 
-  .phone-area{
+  .phone-tracker-area{
     display: flex;
   }
 
-  .phone-img{
+  .phone-tracker-img{
     position: absolute;
     margin-top: -12%;
     margin-left: 30%;
@@ -201,12 +201,16 @@
   .pay-button{
     margin-right: 7%;
   }
-  .book-area-start{
+
+
+  /* device section start */
+
+  .device-area-start{
     
     padding: 50px 0 50px 0;
 }
 
-.book-card{
+.device-card{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-gap: 20px;
@@ -218,19 +222,19 @@
 
 
 
-.book-text{
+.device-text{
   padding: 2rem 1rem;
   text-align: center;
   
 }
-.book-text h2{
+.device-text h2{
   color: #E15352;
   
 }
 
 
 
-.book p{
+.device p{
   font-size: 12px;
   color: #E15352;
   margin-top: 15px;
