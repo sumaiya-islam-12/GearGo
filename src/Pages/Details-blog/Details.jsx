@@ -112,11 +112,10 @@ useEffect(() => {
       </div>
 
         <div className='image'>
-          <div><img src="/src/assets/Blog-img/Product Card.png" alt="" /></div>
-          <div><img src="/src/assets/Blog-img/Product Card.png" alt="" /></div> 
-          <div><img src="/src/assets/Blog-img/Product Card.png" alt="" /></div>
-          <div><img src="/src/assets/Blog-img/Product Card.png" alt="" /></div> 
-          
+          <img src="/src/assets/Blog-img/Product Card.png" alt="" />
+          <img src="/src/assets/Blog-img/Product Card.png" alt="" />
+          <img src="/src/assets/Blog-img/Product Card.png" alt="" />
+          <img src="/src/assets/Blog-img/Product Card.png" alt="" />
         </div>
 
         <div className='step'>
@@ -126,11 +125,10 @@ useEffect(() => {
         </div>
 
         <div className='image2'>
-          <div><img src="/src/assets/Blog-img/Group 244.png" alt="" /></div>
-           <div><img src="/src/assets/Blog-img/Group 244.png" alt="" /></div> 
-           <div><img src="/src/assets/Blog-img/Group 244.png" alt="" /></div> 
-           <div><img src="/src/assets/Blog-img/Group 244.png" alt="" /></div>
-          <div><img src="/src/assets/Blog-img/Group 244.png" alt="" /></div> 
+          <img src="/src/assets/Blog-img/Group 244.png" alt="" />
+           <img src="/src/assets/Blog-img/Group 244.png" alt="" />
+           <img src="/src/assets/Blog-img/Group 244.png" alt="" />
+          <img src="/src/assets/Blog-img/Group 244.png" alt="" /> 
         </div>
     
 

@@ -181,18 +181,19 @@
     margin-left: 40rem;
  } 
 .image img{
-    padding: 2rem;
+  padding: 2rem;
 }
 .image{
     padding-left: 10rem;
-    padding-top: 6rem;
-    display: flex;
+    padding-top: 6rem; 
+    grid-template-columns: repeat(4,1fr);
+    
 }
 .image2{
-    padding-left: 8rem;
+    padding-left: 14rem;
     padding-top: 2rem;
-    display: flex;
     padding-bottom: 3rem;
+    grid-template-columns: repeat(4 ,1fr)
 }
 .image2 img{
     padding: 1rem; 
@@ -269,7 +270,8 @@
         margin-left: 7rem;
     }
     .image{
-        padding-left: 1.8rem;
+        grid-template-columns: repeat(3 ,1fr);
+        padding-left: 1.8rem; 
     }
     .image img{
         padding: .6rem;
@@ -278,7 +280,8 @@
         margin-left: 10rem;
     }
     .image2{
-        padding-left: 1rem;
+         padding-left: 1rem; 
+        grid-template-columns: repeat(3 ,1fr);
     }
     .btn-wrapper2 button{
         margin-left: 27rem;
@@ -332,7 +335,8 @@
         margin-left: 5rem;
     }
     .image{
-        padding-left: 1.4rem;
+        padding-left: 1.4rem; 
+        grid-template-columns: repeat(2 ,1fr);
     }
     .image img{
         padding: 1rem;
@@ -341,7 +345,9 @@
         margin-left: 4rem;
     }
     .image2{
-        padding-left: 1rem;
+         padding-left: 1rem; 
+        grid-template-columns: repeat(2 ,1fr);
+
     }
     .btn-wrapper2 button{
         margin-left: 18rem;
@@ -394,7 +400,8 @@
         margin-left: 3rem;
     }
     .image{
-        padding-left: 5rem;
+         padding-left: 5rem; 
+        grid-template-columns: repeat(1 ,1fr);
   
     }
     .image img{
@@ -408,7 +415,8 @@
         width: 20rem;
     }
     .image2{
-        padding-left: 5rem;
+         padding-left: 5rem; 
+        grid-template-columns: repeat(1 ,1fr);
     }
     .btn-wrapper2 button{
         margin-left: 8rem;
