@@ -1,0 +1,24 @@
+.product-area{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    border: 0cap;
+}
+
+
+@media (max-width: 968px) {
+    .product-area {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .product-area {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 640px) {
+    .product-area {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

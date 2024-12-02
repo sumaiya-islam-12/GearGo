@@ -146,7 +146,7 @@ export default function policy() {
               Contact us
             </div>
             <div className='gg-30'>
-            If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at contact@trackon-gps.com and support@trackon-gps.com
+            If you have any no questions or suggestions about our Privacy Policy, do not hesitate to contact us at contact@trackon-gps.com and support@trackon-gps.com
               </div>
           </section>
           </Col>
