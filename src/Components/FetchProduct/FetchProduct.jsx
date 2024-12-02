@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import './FetchProduct.css';
 
 
 export default function FetchProduct(props) {
@@ -12,8 +13,9 @@ export default function FetchProduct(props) {
         const url = `/mainproduct/${id}`
         navigate(url)
     }
+
   return (
-    <div>
+    <div className="fetch-product">
         <button onClick={() => handelDetails(id)}>
         
         

@@ -74,48 +74,50 @@
 }
   
   
-  /* Features Section */
-.features-section h2{
+  /* real-time Section */
+.real-time-section h2{
   color: #E15352;
 }
-  .features-section {
+  .real-time-section {
     padding: 2rem 1rem;
     text-align: center;
   }
   
-  .feature {
+  .real-time {
     padding: 1rem;
     margin: 1rem;
     border-bottom: 2px solid #E15352;
     text-align: left;
   }
 
-  .feature h4{
+  .real-time h4{
     color: #E15352;
   }
 
- .feature p{
+ .real-time p{
   color: #827e7e;
  }
 
- .icon{
+ .real-time{
   padding: 0.8rem;
   margin-right: 1rem;
-  background: #e1525242;
-  border-radius: 48%;
  }
 
- img.icon{
+ .real-time-icon{
   font-size:8px;
   transform:translateY(5%);
+  background-color: #e1525265;
+  padding: 10px;
+  border-radius: 50%;
+  margin-right: 10px;
  }
   
-  /* Comparison Section */
-  .comparison-section {
+  /* dash-board Section */
+  .dash-board-section {
     padding: 2rem 1rem;
     text-align: center;
   }
-  .comparison-section h2 {
+  .dash-board-section h2 {
     color: #E15352;
   }
   
@@ -142,23 +144,24 @@
     background: #e1525242;
     color: #827e7e;
   }
-
-/* Tracker section start */
-.tracker-section img{
+  
+  /* car section start */
+  .car-section img{
     height: 260px;
     width: 300px;
+    margin-left: 50px;
   }
-  .tracker-section h4{
+  .car-section h4{
     color: #E15352;
   }
 
- .tracker-section p{
+ .car-section p{
     color: #827e7e;
     line-height:1.5rem;
   
  }
-  /* App Section */
-  .app-section {
+  /* phone Section */
+  .phone-section {
     padding: 3rem;
     text-align: left;
     background: #E15352;
@@ -168,21 +171,21 @@
     /* margin-bottom: 10%; */
   }
 
-  .app-card{
+  .phone-card{
     width: 40%;
   }
 
-  .app-card h4{
+  .phone-card h4{
     color: white;
     font-size: 2rem;
   }
 
-  .app-card p{
+  .phone-card p{
     line-height:2rem;
   }
 
 
-  .app-card-area{
+  .phone-card-area{
     display: flex;
     margin: 5%;
   }
@@ -191,17 +194,17 @@
     display: flex;
   }
 
-  .phone-img{
+  .phone-app-img{
     position: absolute;
     margin-top: -7%;
     margin-left: 30%;
   }
   
-  .app-card button{
+  .phone-card button{
     border-radius:10%;
   }
 
-  .pay-button{
+  .phone-pay-button{
     margin-right: 7%;
   }
 
@@ -288,12 +291,12 @@
     .banner-card-area{
         display:block;
     }
-    .app-card-area{
+    .phone-card-area{
       display: block;
   }
-  .phone-img{
+  .phone-app-img{
     margin-top: 7%;
-    margin-left: 7%;
+    margin-left: 8%;
   }
 
 }

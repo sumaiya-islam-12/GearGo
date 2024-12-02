@@ -4,7 +4,7 @@ import './Car.css'
 
 export default function Car() {
 return (
-    // <div>Bike</div>
+    // <div>car</div>
     <div>
         <Header/>
 
@@ -31,36 +31,36 @@ return (
             {/* <!-- Banner section close --> */}
             
             
-            {/* <!-- feature section start --> */}
+            {/* <!-- real time section start --> */}
             <div className="container">
-            <div className="features-section">
+            <div className="real-time-section">
                 <h2>-Why Is Trackon GPS The Best GPS Car Tracker In Nepal?-</h2>
 
                 <div className="card-area">
-                    <div className="feature">
-                        <h4><img src="/src/assets/car/image/real-time-image/real-time-image.png" className="icon"/>Real-time Car Tracking System</h4>
+                    <div className="real-time">
+                        <h4><img src="/src/assets/car/image/real-time-image/real-time-image.png" className="real-time-icon"/>Real-time Car Tracking System</h4>
                         <p>Stay assured about the security of your bike, no matter where it is. Trackon Bike GPS tracker allows you to track and monitor your asset intelligently to avoid theft.
                         </p>
                     </div>
-                    <div className="feature">
-                        <h4><img src="/src/assets/car/image/lock-unlock-image/lock-unlock-image.png" className="icon"/> Car GPS Lock/Unlock</h4>
+                    <div className="real-time">
+                        <h4><img src="/src/assets/car/image/lock-unlock-image/lock-unlock-image.png" className="real-time-icon"/> Car GPS Lock/Unlock</h4>
                         <p>The bike GPS device from Trackon allows you to lock and unlock your bike remotely. Use our bike GPS tracker to maintain complete control over your vehicle.</p>
                     </div>
-                    <div className="feature">
-                        <h4><img src="/src/assets/car/image/maltiple-alerts-image/maltiple-alerts-image.png" className="icon"/>Multiple Alerts</h4>
+                    <div className="real-time">
+                        <h4><img src="/src/assets/car/image/maltiple-alerts-image/maltiple-alerts-image.png" className="real-time-icon"/>Multiple Alerts</h4>
                         <p>Get instant SMS/Notification alerts of specific events such as ignition turn, over-speeding, geo-fence, bike theft attempt, etc., with our bike GPS security system.</p>
                     </div>
-                    <div className="feature">
-                        <h4><img src="/src/assets/car/image/car-security-image/car-security-image.png" className="icon"/>Car Security</h4>
+                    <div className="real-time">
+                        <h4><img src="/src/assets/car/image/car-security-image/car-security-image.png" className="real-time-icon"/>Car Security</h4>
                         <p>Our Bike GPS tracking system gives you complete control over your vehicle. You can keep track of your bike`s movements and make sure it`s parked where it`s intended to be.</p>
                     </div>
-                    <div className="feature">
-                        <h4><img src="/src/assets/car/image/fuel-image/fuel-image.png" className="icon"/> Control Fuel Expenses</h4>
+                    <div className="real-time">
+                        <h4><img src="/src/assets/car/image/fuel-image/fuel-image.png" className="real-time-icon"/> Control Fuel Expenses</h4>
                         <p>Trackon can help you save a lot of money on petrol and keep track of your fuel costs.
                              With our GPS tracking app, you can monitor your riding habits and save your expenses daily.</p>
                     </div>
-                    <div className="feature">
-                        <h4><img src="/src/assets/car/image/monitor-fuel-image/monitor-fuel-image.png" className="icon"/>Monitor Fuel Expenses</h4>
+                    <div className="real-time">
+                        <h4><img src="/src/assets/car/image/monitor-fuel-image/monitor-fuel-image.png" className="real-time-icon"/>Monitor Fuel Expenses</h4>
                         <p>Trackon can help you save a lot of money on petrol and keep track of your fuel costs. With our 
                             GPS tracking app, you can monitor your riding habits and save your expenses daily.</p>
                     </div>   
@@ -68,11 +68,11 @@ return (
                 <button type="submit" className="bttn">Request Demo</button>
             </div>
             </div>
-            {/* <!-- feature section close --> */}
+            {/* <!-- real time section close --> */}
 
-            {/* <!-- checkbox-secion start --> */}
+            {/* <!-- dash-board-secion start --> */}
             <div className="container">
-            <div className="comparison-section">
+            <div className="dash-board-section">
                 <h2>-Trackon`s Car GPS Tracking Devices Vs Other Unbranded Devices-</h2>
                 <table>
                     <thead>
@@ -127,10 +127,10 @@ return (
                 </table>
             </div>
             </div>
-            {/* <!-- checkbox-section close --> */}
+            {/* <!-- dash-board-section close --> */}
 
-            {/* <!-- Tracker section start --> */}
-            <section className="tracker-section">
+            {/* <!-- car section start --> */}
+            <section className="car-section">
                 <div className="container">
                     <div className="card-area">
                         <div>
@@ -155,17 +155,17 @@ return (
                 </div>
             </section>
             
-            {/* <!-- App section start --> */}
+            {/* <!-- phone section start --> */}
             <div className="container">
-                <div className="app-section">
+                <div className="phone-section">
                     <div className="app-card-area-phone">
-                        <div className='app-card'>
+                        <div className='phone-card'>
                         <h4>With our one-of-a-kind bike GPS tracker app, you can learn more about your bike.</h4>
                         <p>Our bike GPS solution includes the ability to track your bike from any location using 
                             a single mobile application. Whether you`re looking for Bike GPS tracker app on Android 
                             or iPhone, we`ve got you covered.</p>   
                             
-                            <button type="submit" className='pay-button'>
+                            <button type="submit" className='phone-pay-button'>
                             <a href=""><img src="/src/assets/car/image/google-pay-image/google-pay-image.png" alt="" /></a>
                             </button>
                             <button type="submit">
@@ -175,7 +175,7 @@ return (
                         </div>
 
                         <div>
-                            <img className="phone-img" src="/src/assets/car/image/phone-image/phone-image.png" alt=""/>
+                            <img className="phone-app-img" src="/src/assets/car/image/phone-image/phone-image.png" alt=""/>
                         </div>         
                     </div>  
                 </div>
