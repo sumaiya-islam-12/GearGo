@@ -1,0 +1,194 @@
+
+
+.cart-side-img{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.img-2{
+    width: 590px;
+    height: 590px;
+}
+.mm{
+    color: brown;
+    
+}
+.btn-1{
+ width: 120px; 
+height: 27px;
+top: 157px;
+left: 748px;
+padding: 0px;
+gap: 0px;
+border-radius: 13.5px 0px 0px 0px;
+opacity: 0px;
+color: brown;
+border-radius: 2rem;
+background-color: pink;
+
+}
+.btn-2{
+     width: 100px;
+    height: 27px;
+    top: 157px;
+    left: 748px;
+    padding: 0px;
+    gap: 0px;
+    border-radius: 13.5px 0px 0px 0px;
+    opacity: 0px;
+    color: brown;
+    border-radius: 2rem;
+    background-color: pink;
+    
+
+}
+.btn-3{
+ width: 100px; 
+height: 27px;
+top: 157px;
+left: 748px;
+padding: 0px;
+gap: 0px;
+border-radius: 13.5px 0px 0px 0px;
+opacity: 0px;
+color: brown;
+border-radius: 2rem;
+background-color: pink;
+
+}
+.btn-4{
+ width: 120px; 
+height: 27px;
+top: 110px;
+left: 100px;
+gap: 0px;
+opacity: 0px;
+color: brown;
+border-radius: 2rem;
+background-color: pink;
+
+}
+.btn-5{
+ width: 80px; 
+height: 27px;
+top: 110px;
+left: 748px;
+gap: 0px;
+opacity: 0px;
+border-radius: 2rem;
+background-color: brown;
+
+}
+.text{
+    display: flex;
+} 
+.text h5{
+    margin-left: 1rem;
+}  
+.text2 h5{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: darkgreen; 
+}
+.text2 h4{
+    color: brown;
+}
+.text2 h4{
+    padding-bottom: 2rem;
+} 
+.mind{
+    display: flex;
+    
+} 
+.mind button{
+    margin: 20px 10px 20px 0;
+    border: none;
+    
+} 
+.tu h4 {
+    color: brown;
+   
+}
+.mp h4{
+color:#455A64;
+padding-bottom: 2rem;
+}
+.a h4{
+    color: brown;
+}
+.btn-b{
+   width: 107px;
+   height: 27px;
+   gap: 0px;
+   color: brown;
+   border-radius: 2rem;
+   background-color: pink;
+   margin: 10px 10px 0 0;
+
+
+}
+.c h4{
+    color: brown;
+    margin-top: 2rem;
+}
+.btn-d{
+    border: none;
+    padding: 10px;
+    border-radius: 1.3rem;
+    background-color: pink;
+    margin: 10px 10px 0 0;
+
+
+}
+
+.btn-d p{
+    color: #455A64;
+
+
+}
+
+
+
+
+.term{
+    display: flex;
+    margin-top: 2rem;
+}
+.term .btn9{
+    width: 289.5px;
+    height: 60px;
+    border-radius: 30px;
+    color: white;
+    margin-left: 1rem;
+    background-color:#E15352;
+    border: 1px solid #E15352;
+    font-size: 20px;
+    font-weight: 500;
+}
+.term .btn8{
+    width: 289.5px;
+    height: 60px;
+    border-radius: 30px; 
+    border: 1px solid #E15352;
+    background-color: white;
+    color: #E15352;
+    font-size: 20px;
+    font-weight: 500;
+}
+.term2 .btn10 {
+width: 619px;
+height: 60px;
+margin-top: 2rem;
+border-radius: 30px; 
+border: 1px solid #E1535233;
+background-color:#E1535233 ;
+font-size: 20px;
+font-weight: 500;
+
+}
+span{
+    color: #E15352;
+}
+
+

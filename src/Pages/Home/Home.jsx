@@ -1,8 +1,7 @@
+
 import { Card } from "react-bootstrap";
 import Footer from "../../Components/Footer/Footer";
 import Header from "../../Components/Header/Header";
-import './Home.css';
-
 
 
 export default function Home() {
@@ -331,7 +330,6 @@ export default function Home() {
             </div>
           </div>
         </div>
-
 
         <Footer></Footer>
     </div>
