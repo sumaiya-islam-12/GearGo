@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client';
 import './index.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Home from './Pages/Home/Home.jsx';
-import Mainproduct from './Pages/Mainproduct/Mainproduct.jsx';
+// import Mainproduct from './Pages/Mainproduct/Mainproduct.jsx';
 import Pyment from './Pages/Pyment/Pyment.jsx';
 import Blog from './Pages/Blog/Blog.jsx';
 import Contact from './Pages/Contact/Contact.jsx';
@@ -13,12 +13,17 @@ import Policy from './Pages/Policy/policy.jsx';
 import Bike from './Pages/Bike/Bike.jsx';
 import Download from './Pages/Download/download.jsx';
 import Fleet from './Pages/Fleet/Fleet.jsx';
+import Cer from './Pages/Certificates/Cer.jsx';
 
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <Home/>
+  },
+  {
+    path: '/cer',
+    element: <Cer/>
   },
   {
     path: '/blog',
@@ -33,11 +38,11 @@ const router = createBrowserRouter([
     element: <AllProduct/>
     
   },
-  {
-    path: '/mainproduct/:id',
-    element: <Mainproduct/>
+  // {
+  //   path: '/mainproduct/:id',
+  //   element: <Mainproduct/>
     
-  },
+  // },
   // {
   //   path: '/mainproduct',
   //   element: <Mainproduct/>
@@ -49,8 +54,16 @@ const router = createBrowserRouter([
   },
   {
     path: '/policy',
-    element: <Policy/>
+    element: <Policy/>,
+    // children: [
+    //   {
+    //     path: "/informationcollectedandused",
+    //     element: <div>Hello</div>,
+    //   },
+    // ],
+
   },
+
   {
     path: '/bike',
     element: <Bike/>
