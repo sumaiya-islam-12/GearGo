@@ -34,7 +34,7 @@ export default function Cart() {
             <Col md={4}>
 
                 <div>
-                    <h3 className='mm'>gearGo Micro with Vi Sim - 1 year</h3>
+                    <h3 className='mm'>GearGo Micro with Vi Sim - 1 year</h3>
                 </div>
                 <div className='mind'>
                     <button className='btn-1'>Scooter</button>
@@ -88,6 +88,9 @@ export default function Cart() {
                             </div>
                         </button>
                     </div>
+                    <div className='dd'>Available offers</div>
+                    <div className='bm'>Free Delivery</div>
+                    <div className='bn'>Get Flat 200 off on shopping of 6,000 or more</div>
                  
                  
                 

@@ -188,3 +188,30 @@ font-weight: 500;
 span{
     color: #E15352;
 }
+
+.dd{
+    left: 748px;
+    gap: 0px;
+    opacity: 0px;
+    color: #E15352;
+    
+}
+.bn{
+
+top: 632px;
+left: 750px;
+gap: 0px;
+opacity: 0px;
+}
+
+@media screen and (max-width: 768px) {
+    .img-2{
+        width: 490px;
+        height: 490px;
+    }
+}
+@media screen and (max-width: 568px) {
+    .img-2{
+        width: 390px;
+        height: 390px;}
+    }
