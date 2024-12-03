@@ -1,4 +1,4 @@
-import Container from 'react-bootstrap/Container';
+
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Footer from '../../Components/Footer/Footer';
@@ -9,9 +9,8 @@ export default function cart() {
   return (
     <div>
          <Header/>
-         <Container>
 
-         <Row>
+         <Row className='container'>
             <Col md={2}>
                 <div>
                     <div><img className='cart-side-img' src="/src/assets/product-img/Product img (1).png" alt="" /></div>
@@ -24,10 +23,19 @@ export default function cart() {
                 <div>
                 <img  className='img-2' src="/src/assets/product-img/Rectangle 102.png" alt="" />
                 </div>
+                
+                <div className='term'>
+                    <button className='btn8'>Add to cart</button>
+                    <button className='btn9'>Buy Now</button>
+                    </div>
+                <div className='term2'>
+                    <button  className='btn10'>Sale Ends in <span>0d: 10h: 18m:9s</span></button>
+                </div>
             </Col>
             <Col md={4}>
+
                 <div>
-                    <h1 className='mm'>gearGo Micro with Vi Sim - 1 year</h1>
+                    <h3 className='mm'>gearGo Micro with Vi Sim - 1 year</h3>
                 </div>
                 <div className='mind'>
                     <button className='btn-1'>Scooter</button>
@@ -52,23 +60,40 @@ export default function cart() {
                     <h4> Choose SIM Operator</h4>
                     </div>
                     <div className='b'>
-                    <button className='btn-b'>Airtel</button>
-                    <button className='btn-b'>Vodaphone</button>
+                        <button className='btn-b'>Airtel</button>
+                        <button className='btn-b'>Vodaphone</button>
                     </div>
                     <div className='c'>
                     <h4> Choose Variant</h4>
                     </div>
                     <div>
-                    <button className='btn-d'>Vodaphone</button>
-                    <button className='btn-d'>Vodaphone</button>
-                    <button className='btn-d'>Vodaphone</button>
+                        <button className='btn-d'>
+                            <div>
+                                <span>₹ 3190</span>
+                                <p>with 1 year Subscription</p>
+                                <p>₹ 3190 per year</p>
+                            </div>
+                        </button>
+                        <button className='btn-d'>
+                            <div>
+                                <span>₹ 3190</span>
+                                <p>with 1 year Subscription</p>
+                                <p>₹ 3190 per year</p>
+                            </div>
+                        </button>
+                        <button className='btn-d'>
+                            <div>
+                                <span>₹ 3190</span>
+                                <p>with 1 year Subscription</p>
+                                <p>₹ 3190 per year</p>
+                            </div>
+                        </button>
                     </div>
                  
                  
                 
             </Col>
         </Row>
-         </Container>
     <Footer/>
 
 

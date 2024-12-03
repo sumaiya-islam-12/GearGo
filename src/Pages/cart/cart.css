@@ -1,4 +1,5 @@
 
+
 .cart-side-img{
     width: 200px;
     height: 200px;
@@ -100,6 +101,11 @@ background-color: brown;
     display: flex;
     
 } 
+.mind button{
+    margin: 20px 10px 20px 0;
+    border: none;
+    
+} 
 .tu h4 {
     color: brown;
    
@@ -112,17 +118,13 @@ padding-bottom: 2rem;
     color: brown;
 }
 .btn-b{
-    width: 120px; 
+   width: 107px;
    height: 27px;
-   top: 157px;
-   left: 748px;
-   padding: 0px;
    gap: 0px;
-   border-radius: 13.5px 0px 0px 0px;
-   opacity: 0px;
    color: brown;
    border-radius: 2rem;
    background-color: pink;
+   margin: 10px 10px 0 0;
 
 
 }
@@ -131,10 +133,62 @@ padding-bottom: 2rem;
     margin-top: 2rem;
 }
 .btn-d{
-width: 200px;
-height: 90px;
-border-radius: 1.3rem;
-background-color: pink;
+    border: none;
+    padding: 10px;
+    border-radius: 1.3rem;
+    background-color: pink;
+    margin: 10px 10px 0 0;
 
 
 }
+
+.btn-d p{
+    color: #455A64;
+
+
+}
+
+
+
+
+.term{
+    display: flex;
+    margin-top: 2rem;
+}
+.term .btn9{
+    width: 289.5px;
+    height: 60px;
+    border-radius: 30px;
+    color: white;
+    margin-left: 1rem;
+    background-color:#E15352;
+    border: 1px solid #E15352;
+    font-size: 20px;
+    font-weight: 500;
+}
+.term .btn8{
+    width: 289.5px;
+    height: 60px;
+    border-radius: 30px; 
+    border: 1px solid #E15352;
+    background-color: white;
+    color: #E15352;
+    font-size: 20px;
+    font-weight: 500;
+}
+.term2 .btn10 {
+width: 619px;
+height: 60px;
+margin-top: 2rem;
+border-radius: 30px; 
+border: 1px solid #E1535233;
+background-color:#E1535233 ;
+font-size: 20px;
+font-weight: 500;
+
+}
+span{
+    color: #E15352;
+}
+
+
