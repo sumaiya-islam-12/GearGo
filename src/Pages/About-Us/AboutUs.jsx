@@ -122,8 +122,7 @@ export default function AboutUs() {
             <img src="/src/assets/About-Us/img/leaf-2.png" alt="" />
             <img src="/src/assets/About-Us/img/leaf-3.png" alt="" />
             </div>
-   
-
+            
         </div>
              
       
