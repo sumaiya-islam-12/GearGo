@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client';
 import './index.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Home from './Pages/Home/Home.jsx';
-import Mainproduct from './Pages/Mainproduct/Mainproduct.jsx';
+// import Mainproduct from './Pages/Mainproduct/Mainproduct.jsx';
 import Pyment from './Pages/Pyment/Pyment.jsx';
 import Blog from './Pages/Blog/Blog.jsx';
 import Contact from './Pages/Contact/Contact.jsx';
@@ -11,7 +11,7 @@ import AboutUs from './Pages/About-Us/AboutUs.jsx';
 import AllProduct from './Pages/AllProduct/AllProduct.jsx';
 import Policy from './Pages/Policy/policy.jsx';
 import Bike from './Pages/Bike/Bike.jsx';
-import AllProduct from './Pages/AllProduct/AllProduct.jsx';
+// import AllProduct from './Pages/AllProduct/AllProduct.jsx';
 
 const router = createBrowserRouter([
   {
@@ -31,11 +31,11 @@ const router = createBrowserRouter([
     element: <AllProduct/>
     
   },
-  {
-    path: '/mainproduct/:id',
-    element: <Mainproduct/>
+  // {
+  //   path: '/mainproduct/:id',
+  //   element: <Mainproduct/>
     
-  },
+  // },
   // {
   //   path: '/mainproduct',
   //   element: <Mainproduct/>
