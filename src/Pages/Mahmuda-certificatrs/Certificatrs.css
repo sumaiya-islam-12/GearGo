@@ -1,0 +1,53 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+  }
+  
+  .continer{
+    width: 1440px;
+    max-width: 96% ;
+  }
+  
+  .certificates{
+      text-align: center;
+      color: red;
+  
+  }
+  .Approval{
+    text-align: left;
+    color: red;  
+  }
+  .Approval p{
+      color: #455A64;
+  }
+  .card-area{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    
+  }
+  
+  .cardd img{
+    margin-top: 2rem;
+    width: 600px;
+    height: 800px;
+  }
+  @media screen  and (max-width:764px) {
+    .card-area{
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  @media screen  and (max-width:1024px) {
+    .card-area{
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  @media screen  and (max-width:425px) {
+    .card-area{
+      grid-template-columns: repeat(1, 1fr);
+    }
+     img{
+      height: 200px;
+      width: 250px;
+    }
+  }

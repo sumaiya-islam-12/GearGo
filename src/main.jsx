@@ -11,9 +11,9 @@ import AboutUs from './Pages/About-Us/AboutUs.jsx';
 import AllProduct from './Pages/AllProduct/AllProduct.jsx';
 import Policy from './Pages/Policy/policy.jsx';
 import Bike from './Pages/Bike/Bike.jsx';
-import Crertficates from './Pages/Mahmuda/Certificates.jsx';
 
 import Download from './Pages/Download/download.jsx';
+import Certificatrs from './Pages/Mahmuda-certificatrs/Certificatrs.jsx';
 
 
 const router = createBrowserRouter([
@@ -65,8 +65,8 @@ const router = createBrowserRouter([
     element: <Download/>
   },
   {
-    path: '/crertficates',
-    element: <Crertficates/>
+    path: '/certificatrs',
+    element: <Certificatrs/>
   },
 ]);
 
