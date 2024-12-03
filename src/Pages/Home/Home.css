@@ -1,0 +1,302 @@
+.home-head{
+    color: #000;
+}
+.geargo-img{
+    display: flex;
+    justify-content: space-between;
+}
+.geargo-text h1{
+    
+    padding-top: 200px;
+}
+.geargo-text img{
+    padding-right: 10px;
+}
+.chat-now{
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  width: 150px;
+  height: auto;
+  /* margin-left: 1200px; */
+
+}
+.choose-gps{
+    background-image: url('/src/assets/Home/bg-2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+.choose-gps div {
+    text-align: center;
+   
+}
+.choose-gps h1{
+    padding-top: 30px
+   
+}
+.choose-gps div p{
+   color: #fff;
+}
+
+.Our-Features div {
+    text-align: center;
+   
+}
+.Our-Features h1{
+    padding-top: 30px
+   
+}
+.Our-Features div p{
+   color:#000;
+}
+
+.choose-gps-device{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr)
+}
+.our-client{
+    text-align: center;
+}
+.our-client-b2b{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-gap: 10px;
+}
+.telecom-area{
+    text-align: center;
+}
+.telecom-area-img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+/* .telecom-area-img div{
+    pad
+} */
+ .get-started{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+ }
+ .card{
+    background-color: #70707040;
+ }
+ .text-muted{
+    color: #fff;
+ }
+.get-start{
+    display: grid;
+    grid-template-columns: repeat(4,1fr); 
+}
+.Industries{
+    display:flex;
+    background-color: #70707040;
+    border-top-left-radius: 250px;
+    border-top-right-radius: 250px;
+    border-bottom-left-radius: 250px;
+}
+.fleet{
+    padding-top: 150px;
+}
+.traking-device{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: #70707040;
+}
+button{
+    background-color: #70707040;
+}
+.lets-talk{
+    color: #fff;
+    opacity: 70%;
+}
+.review{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 20px;
+  padding-bottom: 20px;
+  
+}
+.review button{
+  border-radius: 30px;
+  border-bottom: solid #E15352;
+  
+}
+.experts-review{
+  margin-bottom: 30px;
+  
+}
+.started{
+  display:grid;
+  grid-template-columns: repeat(2,1fr);
+}
+
+
+
+.input-wrap{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap:2rem;
+    margin-bottom: 2rem;
+}
+
+.input-wrap-2{
+    display: flex;
+    flex-direction: column;
+}
+ input{
+    padding: 0.5rem;
+}
+ .input-wrap-2 input{
+    margin-bottom: 2rem;
+    border-bottom: 2px solid #FB8C89;
+    border-top:1px solid white ;
+    border-left:1px solid white ;
+    border-right:1px solid white ;
+}
+ input{
+    padding: 0.5rem;
+    border-bottom: 2px solid #FB8C89;
+    border-top:1px solid white ;
+    border-left:1px solid white ;
+    border-right:1px solid white ;
+    font-size: 0.9 rem;
+}
+ .input-wrap-2 textarea{
+    padding: 0.5rem;
+    border-bottom:2px solid #FB8C89;
+    border-top:1px solid white ;
+    border-left:1px solid white ;
+    border-right:1px solid white ;
+}
+  input:focus{
+    outline: none;
+}
+.btn-wrapper{
+  border-radius: 100px;
+  background-color: #E15352;
+  padding: 0 20px 0 20px;
+  color: #fff;
+}
+@media (max-width:968px) {
+    .geargo-img{
+      display: block;
+      width: 100%;
+      padding-top: 0px;
+  }
+  .choose-gps-device{
+    grid-template-columns: repeat(2,1fr);
+    width: 100%;
+  }
+  .our-client-b2b{
+    grid-template-columns: repeat(4,1fr);
+    width: 100%;
+  }
+  .get-start{
+    grid-template-columns: repeat(3,1fr);
+    width: 100%;
+  }
+  .Industries{
+    display: block;
+    width: 100%;
+
+  }
+  .fleet{
+    padding-bottom: 110px;
+    padding-top: 50px;
+}
+.traking-device{
+    grid-template-columns: repeat(2,1fr);
+    width: 100%;
+}
+.review{
+  grid-template-columns: repeat(2,1fr);
+  width: 100%;
+}
+.experts-review img{
+  height: 400px;
+  width: 830px;
+}
+.started{
+  display:grid;
+  grid-template-columns: repeat(1,1fr);
+}
+}
+@media (max-width:762px) {
+    .geargo-img{
+      padding-top: 0px;
+      display: block;
+      width: 100%;
+  }
+  .choose-gps-device{
+    grid-template-columns: repeat(2,1fr);
+    width: 100%;
+  }
+  .our-client-b2b{
+    grid-template-columns: repeat(3,1fr);
+    width: 100%;
+  }
+  .get-started{
+    grid-template-columns: repeat(2,1fr);
+    width: 100%;
+    grid-gap: 10px;
+  }
+  .get-start{
+    grid-template-columns: repeat(2,1fr);
+    width: 100%;
+    grid-gap: 10px;
+  }
+  .traking-device{
+    grid-template-columns: repeat(1,1fr);
+    width: 100%;
+}
+.review{
+  grid-template-columns: repeat(1,1fr);
+  width: 100%;
+}
+.experts-review img{
+
+  height: 350px;
+  width: 700px;
+}
+}
+@media (max-width:640px) {
+    .geargo-img{
+      padding-top: 0px;
+      display: block;
+      width: 100%;
+  }
+  .choose-gps-device{
+    grid-template-columns: repeat(1,1fr);
+    width: 100%;
+  }
+  .our-client-b2b{
+    grid-template-columns: repeat(2,1fr);
+    width: 100%;
+  }
+  .telecom-area-img{
+    grid-template-columns: repeat(1,1fr);
+    width: 100%;
+  }
+  .get-started{
+    grid-template-columns: repeat(2,1fr);
+    width: 100%;
+    grid-gap: 10px;
+  }
+  .get-start{
+    grid-template-columns: repeat(2,1fr);
+    width: 100%;
+    grid-gap: 10px;
+  }
+  .traking-device{
+    grid-template-columns: repeat(1,1fr);
+    width: 100%;
+}
+.review{
+  grid-template-columns: repeat(1,1fr);
+  width: 100%;
+}
+.experts-review img{
+  height: 260px;
+  width: 600px;
+}
+}

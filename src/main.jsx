@@ -8,7 +8,10 @@ import Pyment from './Pages/Pyment/Pyment.jsx';
 import Blog from './Pages/Blog/Blog.jsx';
 import Contact from './Pages/Contact/Contact.jsx';
 import AboutUs from './Pages/About-Us/AboutUs.jsx';
+import AllProduct from './Pages/AllProduct/AllProduct.jsx';
 import Policy from './Pages/Policy/policy.jsx';
+import Bike from './Pages/Bike/Bike.jsx';
+import Crertficates from './Pages/Mahmuda/Certificates.jsx';
 
 import Download from './Pages/Download/download.jsx';
 
@@ -27,10 +30,20 @@ const router = createBrowserRouter([
     element: <Contact/>
   },
   {
-    path: '/mainproduct',
+    path: '/allproduct',
+    element: <AllProduct/>
+    
+  },
+  {
+    path: '/mainproduct/:id',
     element: <Mainproduct/>
     
   },
+  // {
+  //   path: '/mainproduct',
+  //   element: <Mainproduct/>
+    
+  // },
   {
     path: '/aboutus',
     element: <AboutUs/>
@@ -40,12 +53,20 @@ const router = createBrowserRouter([
     element: <Policy/>
   },
   {
+    path: '/bike',
+    element: <Bike/>
+  },
+  {
     path: '/pyment',
     element: <Pyment/>
   },
   {
     path: '/download',
     element: <Download/>
+  },
+  {
+    path: '/crertficates',
+    element: <Crertficates/>
   },
 ]);
 
