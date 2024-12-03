@@ -38,14 +38,14 @@ export default function Footer() {
          
        
         </Col>
-        <Col sm={12} md={3} className='pera'>
+        <Col sm={12} md={12} lg={3} className='pera'>
         <li><a href="#">Customer Care:</a></li>
           <li><a href="#">Connect on whatsapp:</a></li>
           <li><a href="#">Working hours:</a></li>
           <li><a href="#">Email us at:</a></li>
           <li><a href="#">Address:</a></li>
         </Col>
-        <Col sm={12} md={3}>
+        <Col sm={12} md={12} lg={3}>
         <li><a href="#">9820754740,  9820754741</a></li>
           <li><a href="#">9820754740</a></li>
           <li><a href="#">10:00 am - 6:00 pm</a></li>
@@ -55,19 +55,19 @@ export default function Footer() {
         </Col>
       </Row>
       <Row>
-        <Col sm={12} md={6}>
+        <Col sm={12} md={12} lg={6}>
         <a href="#"><img src="/src/assets/Footer-img/image 1.png" alt="" /></a>
         <a href="#"><img src="/src/assets/Footer-img/image 2.png" alt="" /></a>
               <p className='text-foot'>Approved by the Government of Nepal In partnership with Nepal police, Nepal Telecom </p>
         </Col>
-        <Col sm={12} md={6}>
+        <Col sm={12} md={6} lg={6}>
              <p className='text-foot'>© 2022, Trackon Nepal Pvt. Ltd.</p>
         </Col>
       </Row>
       <Row  className='bg-1'>
-        <Col sm={12} md={6}><li><a href="#"> Buy GPS Tracker For Bike and Car Online..! </a></li></Col>
-        <Col sm={12} md={3}> <li><a href="#">9820754740</a></li></Col>
-        <Col sm={12} md={3}><li> <a href="#">9820754740,  9820754741</a> </li></Col>
+        <Col sm={12} md={6} lg={6}><li><a href="#"> Buy GPS Tracker For Bike and Car Online..! </a></li></Col>
+        <Col sm={12} md={3} lg={3}> <li><a href="#">9820754740</a></li></Col>
+        <Col sm={12} md={3} lg={3}><li> <a href="#">9820754740,  9820754741</a></li></Col>
       </Row>
       </div>
       {/* <div className="">

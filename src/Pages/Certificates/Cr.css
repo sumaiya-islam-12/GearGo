@@ -27,8 +27,13 @@
   
 }
 
-.card img{
+.cardd img{
   margin-top: 2rem;
   width: 600px;
   height: 800px;
+}
+@media screen  and (max-width:764px) {
+  .card-area{
+    grid-template-columns: repeat(1, 1fr);
+  }
 }

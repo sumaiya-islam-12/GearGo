@@ -11,7 +11,6 @@
     background:url('/src/assets/About-Us/img/banner.png');
     background-size: cover;
     background-repeat: no-repeat;
-    width: 1280px auto;
     height: 754px;
 }
 
@@ -26,190 +25,150 @@
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;   
 }
+/* services-area-start */
 .services {
     color:#E15352;
     text-align: center;
     margin-top: 20px;
-    padding: 20px;
+    
 }
 .services span{
     color: #000;
  }
 .service-img{
-    Width: 452px;
-    Height: 736px;
+    Width: 380px;
+    Height: 636px;
+    margin-top: 20px;
 }
-.ourcore{
+.our-core{
     color:#E15352;
-    padding-top: 1.5rem;
+    padding-top: 1.5rem; 
 }
-.ourcore p{
+.our-core p{
     color: #455A64;
-    width: 35rem;
-    padding-top: 2rem;
+  
 }
 .management span{
     border-bottom: 3px solid #E15352;
-    width: 30%;
-    padding-bottom: 1rem;
-    margin-right: 10px;
 }
-.vehi{
-    color:#E15352;
-    margin-top: 5px
+.gps{
+    color:#E15352; 
 }
-.main p{
-  
-    color:#455A64;
-    width: 30rem;
+.our-main{
+    color: #455A64;  
 }
-.fleet{
-    color: #E15352;
+.fleet-area{
     margin-top: -9rem;
 }
-.other{
-    color:#455A64;
-    margin-left: 5px;
-    margin-top: 5px;
-    width: 30rem;
+.fleet{
+    color:#E15352;  
+}
+.our-other{
+    color: #455A64; 
 }
 .public{
-    color: #E15352;
-    margin-top: 5px;  
+    color:#E15352;  
 }
 .our{
-    color:#455A64; 
-    width: 30rem; 
+    color: #455A64;   
 }
+/* our-service-area-end */
 
-.story{
+/* our-story-area-start */
+
+.our-story{
     color:#E15352;
-    font-family: Author;
     text-align: center;
-    margin-top: 25px;
-    padding: 20px;   
+    margin-bottom: 3rem;
 }
 .story span{
     color: #000;
- }
- .active{
-    text-align: center;
- }
-.number{    
-    font-weight: 596px;
+ } 
+ .number{    
     color: #E15352;
-    margin-left: 25px;
+    text-align: center;
+
 }
-.number-2{
+.number-area{
     text-align: center;
 }
 
 .text{
     color: #455A64;
-    margin-left: 1rem;
     border-bottom: 3px solid #E15352;
-    padding-bottom: 50px;
+    text-align: center;
+    margin-top: 2rem;
+
 }
 .number-3{
-    margin-top: 3rem;
     color: #E15352;
-    margin-left: 1rem;
+    text-align: center;
+    margin-top: 1rem;
+
 }
+/* our-story-area-emd */
+
+/* leaf-area-start */
+
 .fastest{
     color: #E15352;
   
 }
 .fastest span{
     border-bottom: 3px solid #E15352;
-    padding-bottom: 20px;
 }
 .we{
     color:#455A64;
-    padding-top: 2rem;
+    margin-top: 1rem;
+
 }
- 
 .leaf{
     color:#E15352;
-    font-family: Author;
     text-align: center;
-    margin-top: 25px;
-    padding: 20px; 
+    margin-top: 15px;
+    margin-bottom: 3rem;
 }
 .leaf span{
     color: #000;
  }
-.leaves{
-    display: flex;
-    margin-left: 25rem;
-    padding-top: 8px; 
-    
-}
+ .leaf-img{
+    margin-left: 25rem; 
+ }
 
+ /* leaf-area-end */
 
-
-
-
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) {
     .banner-img{
-        height: 754px;
-        width: 1500px;
+        background-repeat: no-repeat;
         background-size: cover; 
        }
-       .banner-text-area{
-        margin-right: 3rem;
-        text-align: center;
-       }
-       .banner-text-area h5{
-        padding-bottom: 20rem;
-
-       }
-       .service-img{
-        Width: 400px;
-        Height: 680px;
-    }
-    .leaves{
-        display: flex;
-        margin-left: 8rem;
-        padding-top: 8px; 
-        
-    }
-
-       
-    
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 824px) {
     .banner-img{
-        height: 500px;
-        width: 100% auto;
-        background-size: cover; 
-       }
-       .banner-text-area h5{
-        margin-bottom: 19rem;
-
-       } 
-       .service-img{
-        width: 300px;
-        height: 400px;
-       }
-    
-     
-}
-@media screen and (max-width: 425px){
-    .banner-img{
-        height: 200px;
-        width: 100%;
+        background-repeat: no-repeat;
         background-size: cover;
        }
-       .banner-text-area{
-        margin-right: 3rem;
-        padding-bottom: 20rem;
-        text-align: center;
-       }
-
-       .leaves{
-        display: block;
-        width: 100%;
-        text-align: center;
-       }  
+    .fleet-area{
+        margin-top:-3rem;
+    }
+    .our-other{
+       margin-top: -7rem;
+    }
+    .fastest{
+      margin-top: 3rem;
       
     }
+    .leaf-img{
+        margin-left: 3rem;
+    }
+
+
+}
+@media screen and (max-width: 465px) {
+    .banner-img{
+        background-repeat: no-repeat;
+        background-size: cover; 
+       }
+       
+}
+
