@@ -169,6 +169,40 @@ export default function Bike() {
                     </div>  
                 </div>
                 </div>
+
+        {/* Product-area-start */}
+                <div className="container">
+                    <div className="product-section">
+                            <div className='headline'>
+                                <h2>-Checkout Trackon`s Product to Protect Your Bike-</h2>
+                            </div>
+                            <div className="product-area">
+                                <div className="product-card-area">
+                                    <div className="product">
+                                        <img src="/src/Pages/Bike/Bike-images/Soft Box Mockup 02 1.png" alt="" />
+                                        <p>GearGo Micro GPS Tracking Device</p>
+                                    </div>
+                                    <div className="product">
+                                        <img src="/src/Pages/Bike/Bike-images/Soft Box Mockup 02 1.png" alt="" />
+                                        <p>GearGo Micro GPS Tracking Device</p>
+                                    </div>
+                                    <div className="product">
+                                        <img src="/src/Pages/Bike/Bike-images/Soft Box Mockup 02 1.png" alt="" />
+                                        <p>GearGo Micro GPS Tracking Device</p>
+                                    </div>
+                                    <div className="product">
+                                        <img src="/src/Pages/Bike/Bike-images/Soft Box Mockup 02 1.png" alt="" />
+                                        <p>GearGo Micro GPS Tracking Device</p>
+                                    </div>
+                                    <div className="product">
+                                        <img src="/src/Pages/Bike/Bike-images/Soft Box Mockup 02 1.png" alt="" />
+                                        <p>GearGo Micro GPS Tracking Device</p>
+                                    </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
         <Footer/>
     </div>
   )

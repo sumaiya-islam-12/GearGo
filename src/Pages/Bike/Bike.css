@@ -66,7 +66,7 @@
     grid-gap: 2rem;
 }
 
-.card{
+  .card{
    margin: 10%;
 }
   
@@ -190,7 +190,7 @@
 
   .phone-img{
     position: absolute;
-    margin-top: -12%;
+    margin-top: -8%;
     margin-left: 30%;
   }
   
@@ -201,11 +201,44 @@
   .pay-button{
     margin-right: 7%;
   }
+
+  /* Product-area-start */
+  .product-area {
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+  .headline h2{
+    color: #E15352;
+    margin-bottom: 5%;
+    text-align: center;
+  }
+  .product p{
+    color:#E15352 ;
+  }
+  .product-card-area{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap: 2rem;
+}
   
   
 
   /* Responsive Design */
-  @media (max-width:776px) {
+  @media (max-width:1024px) {
+    .banner-card-area{
+        display:block;
+    }
+    .app-card-area{
+      display: block;
+    }
+    .product-card-area{
+      grid-template-columns: repeat(4,1fr);
+    }
+    .bttn{
+      justify-content: end;
+    }
+}
+  @media (max-width:768px) {
     .card-area{
         grid-template-columns: repeat(1,1fr);
     }.banner-card-area{
@@ -213,26 +246,25 @@
     }
     .app-card-area{
       display: block;
+    }
+    .product-card-area{
+      grid-template-columns: repeat(3,1fr);
+    }
+}
+  @media (max-width:425px) {
+    .card-area{
+        grid-template-columns: repeat(1,1fr);
+    }.banner-card-area{
+        display:block;
+    }
+    .app-card-area{
+      display: block;
+    }
+    .product-card-area{
+      grid-template-columns: repeat(2,1fr);
+    }
+    .phone-img{
+      width: 50%;
     }
 
 }
-  /* @media (max-width:360px) {
-    .card-area{
-        grid-template-columns: repeat(1,1fr);
-    }.banner-card-area{
-        display:block;
-    }
-    .app-card-area{
-      display: block;
-    }
-    .banner-section{
-      height: 100%;
-      width:474px;
-    }
-    .phone-img{
-      height:100%;
-      width: 100%;
-
-  }
-
-} */
