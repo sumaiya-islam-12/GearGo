@@ -21,7 +21,7 @@ li{
     padding-left: 100px;
 }
 
-p{
+.p{
     color: #fff;
 }
 a {
@@ -56,4 +56,33 @@ a {
 }
 .bg-1-num{
     padding-left: 550px;
+}
+@media (max-width :968px) {
+    .bg{
+        display: block;
+        width: 100%;
+    }
+    .bg-1{
+        display: block;
+        width: 100%;
+    }
+    .footer-l{
+        
+        display: block;
+        width: 100%;  
+    }
+    .privacy{
+        padding-left: 0px;
+    }
+    .footer-logo-flex{
+        display: block;
+        width: 100%;
+    }
+    .footer-link{
+        display: block;
+        width: 100%;  
+    }
+    .Faq{
+        padding-left: 0px;
+    }
 }

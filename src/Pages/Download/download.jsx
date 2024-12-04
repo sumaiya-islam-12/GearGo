@@ -6,38 +6,49 @@ import "./Download.css";
 
 export default function Download() {
   return (
-    <div>
-      <Header/>
-          <div className="container">
-          {/* First Div */}
-          <div className="text">
-            <h1>-Get Gear Go on All your Devices-</h1>
-            <div className="image-area">
-            <img src="/src/assets/Download-img/download.png" alt="" />
-          </div>
-          </div>
-        
-          <div className="button-area">
-            <a href="">Windows</a>
-            <button>Download </button>
-            <a href="">Mac OS</a>
-            <button>Download </button>
-            <a href="">Linux</a>
-            <button>Download </button>
-          </div>
+ 
+    <>
+      <section>
+         <Header/>
+            <div className="container">
+           
+               <div className="text">
+                <h1>-Get Gear Go on All your Devices-</h1>
+                <img className="image-area" src="/src/assets/Download-img/download.png" alt="" />
+               </div>
+               <div className="sayma">
+                <div className="keya">
+                <img src="/src/assets/Download-img/Windows icon.png" alt="" />
+                <h5>Windows </h5>
+                <button>Download </button>
+                </div>
 
-          {/* Fourth Div */}
-          <div className="phone-area">
-            <img src="/src/assets/Download-img/download-2.png" alt="" />
-          </div>
-          {/* Fifth Div */}
-          <div className="store-div">
-            <img src="" alt="" />
-            <img src="/src/assets/img/App-store.jpg" alt="" />
-          </div>
-        </div>
-        <Footer/>
-  </div>
+                <div className="keya">
+                <img src="/src/assets/Download-img/path2.png" alt="" />
+                <h5>Mac OS </h5>
+                <button>Download </button>
+                </div>
+
+                <div className="keya">
+                <img src="/src/assets/Download-img/Linux.png" alt="" />
+                <h5>Linux </h5>
+                <button>Download </button>
+                </div>
+                </div>
+
+                 <div className="phone">
+                  <img src="/src/assets/Download-img/mockrocket-capture (5) 1.png" alt="" />
+                 </div>
+
+                   <div className="Group">
+                    <img src="/src/assets/Download-img/Group 12.png" alt="" />
+                   </div>
+             </div>
+      </section> 
+       <Footer/>
+       </>
+      
+   
   )
 }
 

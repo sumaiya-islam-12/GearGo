@@ -3,19 +3,12 @@ import { useParams } from "react-router-dom"
 // import { useEffect, useState } from 'react';
 import Footer from '../../Components/Footer/Footer';
 import Header from '../../Components/Header/Header';
-
 import {faHeart} from "@fortawesome/free-regular-svg-icons";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './Mainproduct.css'
 
 export default function Mainproduct() {
-    // const [ setproduct] = useState([]);
-
-    // useEffect(() =>{
-    //   fetch('/public/product/Product.json')
-    //   .then(res =>res.json())
-    //   .then(data=>setproduct(data))
-    // });
+   
     const {id} = useParams();
     const [details, setDetails] = useState([]);
     const [specificData, setSpecificData] = useState({});
@@ -282,14 +275,29 @@ export default function Mainproduct() {
             <h1 className='get'>
             -Get started-
             </h1>
-            <div  className='start'>
-            <div>
+            <div className="started">
+              <div>
               <img src="/src/assets/Main-product-page-image/map.png" alt="" />
-            </div>
-            <div>
-              
-            </div>
-
+              </div>
+              <div>
+              <div className='container'>
+                      <form action="">
+                        <div className="input-wrap">
+                            <input type="text" placeholder="Your Name *"></input>
+                            <input type="email" placeholder="Your E-mail *"></input>
+                        
+                        </div>
+                        <div className="input-wrap-2">
+                            <input type="text" placeholder="Your Subject..."></input>
+                            <textarea name="" id="" cols="30" rows="10" placeholder="Your Massage..."></textarea>
+                        </div>
+                        
+                        <div>
+                              <button className="btn-wrapper">Send</button>
+                        </div>
+                      </form> 
+                </div>
+              </div>
             </div>
           </div>
 
