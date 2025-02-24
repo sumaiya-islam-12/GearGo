@@ -4,6 +4,7 @@ import './FetchProduct.css';
 
 export default function FetchProduct(props) {
     // console.log(props);
+    // eslint-disable-next-line react/prop-types
     const {title, id, url} = props.fetchdata;
     const navigate = useNavigate();
 

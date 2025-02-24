@@ -25,6 +25,7 @@ export default function Blog(){
           </div>
           <div className='blog-area'>
             {
+              // eslint-disable-next-line react/jsx-key
               blog.map(blogs => <Keya blogdata = {blogs}/>)
             }
           </div>

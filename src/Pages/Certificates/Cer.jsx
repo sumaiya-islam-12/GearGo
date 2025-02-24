@@ -2,7 +2,7 @@
 
 
 
+// eslint-disable-next-line no-unused-vars
 function userGeeeting (props){
 
-    const welcomeMessage =<h2 className="certificates"></h2>
 }

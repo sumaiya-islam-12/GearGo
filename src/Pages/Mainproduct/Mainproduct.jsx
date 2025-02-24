@@ -25,7 +25,7 @@ export default function Mainproduct() {
           const matchedData = details.find((detail) => detail.id == id)
           setSpecificData(matchedData)
       }
-  }, [details]);
+  }, [details, id]);
   
   
 
