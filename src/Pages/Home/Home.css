@@ -177,7 +177,7 @@ button{
   padding: 0 20px 0 20px;
   color: #fff;
 }
-@media (max-width:968px) {
+@media (max-width:1024px) {
     .geargo-img{
       display: block;
       width: 100%;
@@ -221,7 +221,7 @@ button{
   grid-template-columns: repeat(1,1fr);
 }
 }
-@media (max-width:762px) {
+@media (max-width:768px) {
     .geargo-img{
       padding-top: 0px;
       display: block;
@@ -259,11 +259,23 @@ button{
   width: 700px;
 }
 }
-@media (max-width:640px) {
+@media (max-width:425px) {
     .geargo-img{
       padding-top: 0px;
       display: block;
       width: 100%;
+  }
+  .img-2{
+    width: 300px;
+    height: 300px;
+  }
+  .img-3{
+    width: 300px;
+    height: 300px;
+  }
+  .first-pic{
+    width: 380px;
+    height: 200px;
   }
   .choose-gps-device{
     grid-template-columns: repeat(1,1fr);
@@ -278,12 +290,12 @@ button{
     width: 100%;
   }
   .get-started{
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(1,1fr);
     width: 100%;
     grid-gap: 10px;
   }
   .get-start{
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(1,1fr);
     width: 100%;
     grid-gap: 10px;
   }
@@ -296,7 +308,7 @@ button{
   width: 100%;
 }
 .experts-review img{
-  height: 260px;
-  width: 600px;
+  height: 250px;
+  width: 370px;
 }
 }
