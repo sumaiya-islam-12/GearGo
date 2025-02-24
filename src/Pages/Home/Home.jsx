@@ -22,7 +22,7 @@ export default function Home() {
           </div>
             </div>
             <div>
-              <img src="/src/assets/Home/Group 105.png" alt="" />
+              <img src="/src/assets/Home/Group 105.png" alt=""  className="first-pic"/>
               <div>
                 <img src="/src/assets/Home/Chat Now button.png" alt="" className="chat-now" />
               </div>
@@ -219,7 +219,7 @@ export default function Home() {
               <h1>-Industries we cover-</h1>
               <div className="Industries">
                 <div>
-                  <img src="/src/assets/Home/Rectangle 23.png" alt="" />
+                  <img src="/src/assets/Home/Rectangle 23.png" alt="" className="img-2" />
                 </div>
                 <div className="fleet">
                   <h5>
@@ -306,7 +306,7 @@ export default function Home() {
             <h1 className='get'>-Get started-</h1>
             <div className="started">
               <div>
-              <img src="/src/assets/Main-product-page-image/map.png" alt="" />
+              <img src="/src/assets/Main-product-page-image/map.png" alt="" className="img-3" />
               </div>
               <div>
               <div className='container'>
